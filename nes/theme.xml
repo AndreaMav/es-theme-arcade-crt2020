@@ -1,0 +1,602 @@
+<!--
+theme name:		es-arcade-crt2
+version:		2.3
+author:			AndreaMav
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2
+Date:			24/08/2020
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+    
+
+	<view name="basic, detailed, video">
+		
+		<image name="border_top" extra="true">
+			<path>./art/border_top.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+		</image>
+		
+		<image name="border_bottom" extra="true">
+			<path>./art/border_bottom.png</path>
+			<size>1 0.1333333333333333</size>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+		</image>
+		
+		
+		<image name="header" extra="true">
+			<path>./art/system.svg</path>
+			<size>0 0.0740740740740741</size> 
+			<pos>0.0666666666666667 0.8777777777777778</pos>
+        </image>	
+
+        
+		
+	</view>
+	
+	<view name="system">
+				
+		
+		<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./art/system_and.png</path>
+				<tile>false</tile>
+			</image>
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+        </image>
+
+        
+		<image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.65 0.58</pos>
+			<size>0.4 0.13</size>
+		</image>
+
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
+		
+	</view>
+
+	<view name="basic, detailed, video">
+
+
+		<image name="gamelist_help" extra="true">
+			<path>./art/gamelist_help.png</path>
+			<pos>0.5 0.0481481481481481</pos>
+			<origin>0.5 0</origin>
+			<size>0.7 0.05</size>
+			<zIndex>100</zIndex>
+		</image>
+	
+
+		<textlist name="gamelist">
+			<horizontalMargin>0.0166666666666667</horizontalMargin>			
+		</textlist>
+
+		<image name="gamelist_background" extra="true">
+			<path>./art/gamelist_background.png</path>
+			<size>0 0.7333333333333333</size>
+			<origin>0.4 0.5</origin>
+			<pos>0.4 0.5</pos>
+			<color>4d4d4d9a</color>
+		</image>
+
+		<image name="gamelist_outline" extra="true">
+			<path>./art/gamelist_outline.png</path>
+			<size>0 0.7333333333333333</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffffbe</color>
+			<zIndex>200</zIndex>
+		</image>
+			
+				
+		<text name="md_developer, md_publisher, md_genre">
+			<size>0.001 0.001</size>
+		</text>		
+		
+		<text name="md_playcount">
+			<alignment>center</alignment>
+			<size>0.09375 0.0333333333333333</size>
+		</text>
+		
+		<text name="md_players">
+			<alignment>left</alignment>
+			<size>0.0479166666666667 0.0595555555555556</size>
+		</text>
+
+
+
+		
+
+		
+		<image name="left_window_body" extra="true">
+			<path>./art/window_body.png</path>
+			<size>0.390 0.6518518518518519</size>
+			<pos>0.0041666666666667 0.5</pos>
+			<origin>0 0.5</origin>
+			<color>3232329a</color>
+		</image>
+		
+		<image name="bar_1" extra="true">
+			<path>./art/info_bar.png</path>
+			<size>0.37 0.1111111111111111</size>
+		</image>	
+
+		<image name="bar_1_overlay" extra="true">
+			<path>./art/info_bar_overlay.png</path>
+			<size>0.37 0.1111111111111111</size>
+			<zIndex>150</zIndex>
+		</image>
+		
+		<image name="bar_2" extra="true">
+			<path>./art/info_bar.png</path>
+			<size>0.37 0.1111111111111111</size>
+		</image>
+
+		<image name="bar_2_overlay" extra="true">
+			<path>./art/info_bar_overlay.png</path>
+			<size>0.37 0.1111111111111111</size>
+			<zIndex>150</zIndex>
+		</image>
+
+		<image name="bar_3" extra="true">
+			<path>./art/info_bar.png</path>
+			<size>0 0.1111111111111111</size>
+		</image>
+		
+		<image name="bar_3_overlay" extra="true">
+			<path>./art/info_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>150</zIndex>
+		</image>		
+		
+		
+		<image name="bar_4" extra="true">
+			<size>0.37 0.1111111111111111</size>
+		</image>
+		
+		<image name="bar_4_overlay" extra="true">
+			<path>./art/rating_bar_overlay.png</path>
+			<size>0 0.1111111111111111</size>
+			<zIndex>150</zIndex>			
+		</image>
+		
+		<image name="bar_1_overlay, bar_2_overlay, bar_3_overlay, bar_4_overlay" extra="true">
+			<color>ffffff80</color>
+		</image>
+
+
+			
+		
+		<image name="left_window_border" extra="true">
+			<path>./art/window_border.png</path>
+			<size>0.39 0.6666666666666667</size>
+			<!--<size>0 0.36</size>-->
+			<pos>0 0.5</pos>
+			<origin>0 0.5</origin>
+			<color>c8c8c8</color>
+		</image>
+
+		<image name="left_window_box" extra="true">
+			<path>./art/window_box.png</path>		
+			<size>0.40 0.4888888888888889</size>
+			<color>4c4c4c7f</color>
+			<zIndex>-100</zIndex>
+		</image>		
+		
+
+		<image name="right_window_border" extra="true">
+			<path>./art/window_border.png</path>
+			<size>0 0.6666666666666667</size>
+			<pos>1 0.5</pos>
+			<origin>1 0.5</origin>
+			<color>c8c8c8</color>
+		</image>
+			
+		<image name="right_window_box" extra="true">
+			<path>./art/window_box.png</path>
+			<size>0 0.4888888888888889</size>
+			<color>4c4c4c7f</color>
+			<zIndex>-100</zIndex>
+		</image>
+		
+		
+
+		<image name="missing_art" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0 0.2518518518518519</size>
+		</image>
+
+		<image name="player_box" extra="true">
+			<size>0 0.0625555555555556</size>
+			<color>000000</color>	
+			<zIndex>200</zIndex>
+		</image>
+
+		
+		<text name="rating_label, played_label" extra="true">
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.0792592592592593</fontSize>
+			<size>0.25 0.0333333333333333</size>
+		</text>
+		
+		
+
+		<text name="developer_label" extra="false">
+			<alignment>center</alignment>
+			<text>Developed by</text>
+		</text>		
+
+		<text name="genre_label" extra="true">
+			<alignment>center</alignment>
+			<text>Genre</text>
+			<pos>1 0</pos>
+            <size>0.001 0.001</size>
+		</text>	
+
+		<text name="rating_label" extra="true">
+			<alignment>center</alignment>
+			<size>0.09375 0.0333333333333333</size>
+			<text>Rating</text>
+		</text>	
+
+		<text name="played_label" extra="true">
+			<alignment>center</alignment>
+			<size>0.09375 0.0333333333333333</size>
+			<text>Played</text>
+		</text>	
+
+
+		
+
+		<image name="bar_1, bar_1_overlay" extra="true">
+			<pos>0.0083333333333333 0.1814814814814815</pos>
+			<origin>1 0</origin>
+		</image>
+	
+		<text name="publisher_label" extra="false">
+			<pos>1 0</pos>
+			<size>0.001 0.001</size>
+		</text>
+				
+		<datetime name="md_releasedate">
+			<pos>0.15625 0.2037037037037037</pos>
+		</datetime>
+		
+		<text name="md_publisher">
+			<pos>1.8 1.8</pos>
+		</text>
+
+
+
+		
+		<image name="bar_2, bar_2_overlay" extra="true">
+			<pos>0.0083333333333333 0.7074074074074074</pos>
+			<origin>0 0</origin>
+		</image>	
+		
+		<text name="developer_label" extra="false">
+			<pos>0.0208333333333333 0.7296296296296296</pos>
+		</text>
+
+		<text name="md_developer">
+			<pos>1.8 1.8</pos>
+		</text>	
+	
+		<image name="right_window_border" extra="true">
+			<pos>2 0.5</pos>
+			<origin>1 0.5</origin>
+			<color>c8c8c8</color>
+		</image>
+
+		
+		<image name="right_window_box" extra="true">
+			<pos>2 0.5</pos>
+			<size>0 0.4888888888888889</size>
+			<color>c8c8c8</color>
+		</image>
+		
+		<image name="left_window_box" extra="true">
+			<pos>0.0111111111111111 0.5</pos>
+			<origin>0 0.5</origin>
+			<size>0 0.4888888888888889</size>
+
+		</image>				
+
+		<image name="missing_art" extra="true">
+			<pos>0.1944444444444444 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0 0.2518518518518519</size>
+		</image>
+
+		
+		<image name="bar_1" extra="true">
+			<pos>0.0111111111111111 0.1814814814814815</pos>		
+		</image>	
+
+		<image name="bar_1_overlay" extra="true">
+			<pos>0.0111111111111111 0.1814814814814815</pos>		
+			<zIndex>150</zIndex>
+		</image>		
+		
+		<image name="bar_2, bar_3" extra="true">
+			<pos>2 1</pos>
+			<size>0 0.1111111111111111</size>
+			<color>000000</color>
+		</image>	
+
+		<image name="bar_2_overlay, bar_3_overlay" extra="true">
+			<pos>2 1</pos>
+			<size>0 0.1111111111111111</size>
+			<color>000000</color>
+		</image>			
+
+		<image name="bar_4" extra="true">
+			<pos>0.0111111111111111 0.707407407407407</pos>
+			<origin>0 0</origin>
+		</image>
+		
+		<image name="bar_4_overlay" extra="true">
+			<pos>0.0111111111111111 0.707407407407407</pos>
+			<origin>0 0</origin>
+			<zIndex>150</zIndex>
+		</image>
+
+		<image name="player_box" extra="true">
+			<pos>0.2944444444444444 0.737037037037037</pos>
+			<origin>0 0</origin>
+		</image>
+		
+		<text name="players_label" extra="true">
+			<pos>0.2944444444444444 0.733333333333333</pos>
+			<size>0.0555555555555556 0.0407407407407407</size>
+		</text>
+		
+		<text name="md_players">
+			<alignment>left</alignment>
+			<pos>0.2944444444444444 0.7386296296296296</pos>
+			<size>0.0638888888888889 0.0595555555555556</size>
+		</text>
+
+		<text name="rating_label" extra="true">
+			<pos>0.025 0.7315</pos>
+			<alignment>center</alignment>
+			<size>0.125 0.0333333333333333</size>			
+		</text>		
+		
+		<rating name="md_rating">
+			<pos>0.0361111111111111 0.7633</pos>
+		</rating>	
+
+		<text name="played_label" extra="true">
+			<pos>0.1583333333333333 0.7345</pos>
+			<size>0.125 0.0333333333333333</size>
+		</text>		
+		
+		<text name="md_playcount">
+			<size>0.125 0.0333333333333333</size>
+			<pos>0.1583333333333333 0.751851851851852</pos>
+		</text>
+		
+		<text name="publisher_label" extra="true">
+			<pos>1 0</pos>
+            <size>0.001 0.001</size>
+		</text>
+				
+		<datetime name="md_releasedate">
+			<pos>1 0</pos>
+			<size>0.001 0.001</size>
+		</datetime>
+		
+		<text name="md_publisher">
+			<pos>1.8 1.8</pos>
+			<size>0.001 0.001</size>
+		</text>			
+
+		<text name="md_description">
+			<pos>2 1</pos>
+			<size>0.001 0.001</size>
+		</text>
+		
+		
+		<text name="developer_label" extra="true">
+			<pos>1.8 1</pos>
+			<size>0.001 0.001</size>
+		</text>		
+
+		<text name="genre_label" extra="true">
+			<pos>1 0</pos>
+            <size>0.001 0.001</size>
+		</text>
+		
+		<text name="md_genre">
+			<pos>2 1</pos>
+			<size>0.001 0.001</size>
+		</text>
+		
+		<text name="md_developer">
+			<pos>2 1</pos>
+			<size>0.001 0.001</size>
+		</text>
+
+
+		<image name="bg_color" extra="true">
+			<path>./art/color8.png</path>
+			<size>1 0.7407407407407407</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>ffffff</color>
+			<zIndex>-201</zIndex>
+		</image>		
+		
+		<image name="bg_overlay" extra="true">
+			<path>./art/snes-classic.png</path>
+			<size>0 0.7407407407407407</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>000080d8</color>
+			<zIndex>-200</zIndex>
+		</image>
+
+		<text name="rating_label, played_label" extra="true">
+			<color>00ffd9</color>
+		</text>	
+
+				
+		<datetime name="md_releasedate, md_lbl_releasedate">
+			<color>ffffff</color>
+			<size>0.001 0.001</size>
+			<pos>1 0</pos>
+		</datetime>	
+		
+		
+
+		
+		<textlist name="gamelist">
+			<horizontalMargin>0.010</horizontalMargin>			
+		</textlist>
+
+		
+		<image name="gamelist_background" extra="false">
+			<origin>1 0.5</origin>		
+			<pos>0.9805555555555556 0.5</pos>
+		</image>
+		
+		<image name="gamelist_outline" extra="true">
+			<origin>1 0.5</origin>
+			<pos>0.9805555555555556 0.5</pos>
+		</image>
+
+
+		<textlist name="gamelist">
+			
+			<selectedColor>7adbff</selectedColor>
+			<primaryColor>ffffff</primaryColor>			
+			<size>0.4311111111111111 0.5681481481481481</size>
+			<pos>0.8861111111111111 0.2299259259259259</pos>			
+			<lineSpacing>1.961</lineSpacing>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<alignment>left</alignment>
+			<origin>1 0</origin>
+			<selectorHeight>0.045</selectorHeight><!--altezza nero selettore-->
+			<selectorOffsetY>+0.0111111</selectorOffsetY>
+		</textlist>
+
+
+		
+		<rating name="md_rating">
+			<size>0.0166666666666667 0.0296296296296296</size>	
+			<pos>0.0361111111111111 0.7693</pos>	
+			<filledPath>./art/heart_filled.png</filledPath>
+			<unfilledPath>./art/heart_empty.png</unfilledPath>
+		</rating>
+
+
+
+		<text name="md_players">
+			<fontPath>./art/player_font4.ttf</fontPath>		
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.046</fontSize>
+			<color>ffffff</color>
+			<zIndex>199</zIndex>			
+		</text>
+
+		<image name="player_box" extra="true">
+			<path>./art/player_overlay.png</path>
+		</image>	
+		
+		<image name="bar_4" extra="true">
+			<path>./art/rating_bar.png</path>
+		</image>	
+
+		
+	
+		<datetime name="md_releasedate, md_description, md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate">
+                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                        <pos>1 1</pos>
+                        <size>0.001 0.001</size>
+                    </datetime>
+
+
+
+
+
+	</view>
+
+
+
+
+
+
+
+
+	<view name="video">
+	
+		<image name="missing_art" extra="true">
+			<pos>2 2</pos>
+		</image>
+		
+		<image name="md_image">
+			<pos>2 2</pos>
+		</image>
+
+		<video name="md_video">
+				<pos>0.030 0.20</pos>			
+				<origin>0 0</origin>
+				<size>0.33 0.52</size>
+				<delay>0.2</delay>
+				<default>./../_res/images/static.mp4</default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			
+		</video>
+
+		<image name="md_marquee">
+				<pos>0.030 0.20</pos>
+				<origin>0 0</origin>
+				<size>0.33 0.08</size>
+		</image>
+
+		<image name="missing_art" extra="true">
+			<pos>2 2</pos>
+		</image>
+	
+		<image name="md_image">
+			<maxSize>0.3222222222222222 0.4296296296296296</maxSize>
+			<pos>2 2</pos>
+		</image>	
+
+		<image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.56 0.93</pos>
+			<size>0.3 0.10</size>
+		</image>
+
+	</view>
+	
+</theme>
