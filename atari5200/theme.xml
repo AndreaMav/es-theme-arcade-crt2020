@@ -1,0 +1,225 @@
+<!--
+theme name:		es-arcade-crt2
+version:		2.3
+author:			AndreaMav
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2
+Date:			24/08/2020
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="system">
+		<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./_inc/system_and.png</path>
+				<tile>false</tile>
+			</image>
+
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	
+		<image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.65 0.58</pos>
+			<size>0.4 0.13</size>
+		</image>
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
+
+	</view>		
+		
+
+		<view name="system, basic">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+			<pos>0.10 0.10</pos>			
+			<origin>0 0</origin>
+			<size>0.3 0.10</size>
+		</image>
+
+		</view>
+
+	<view name="detailed">
+		<image name="md_image">
+				<pos>0.03 0.23</pos>
+				<origin>0 0</origin>
+				<size>0.35 0.50</size>
+			</image>
+	</view>
+	
+	<view name="detailed, video">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+			<pos>0.10 0.10</pos>			
+			<origin>0 0</origin>
+			<size>0.3 0.10</size>
+		</image>
+
+		<image name="logo_helper" extra="true">
+			<path>./../art/arcand.png</path>
+			<origin>0 0.</origin>
+			<pos>0.45 0.1</pos>
+			<size>0.2 0.15</size>
+		</image>
+
+		<image name="background" extra="true">
+				<pos>0.09 0.75</pos>			
+				<origin>0 0</origin>
+				<size>0.28 0.22</size>
+				<tile>false</tile>
+				<path>./_inc/system_and.png</path>
+		</image>
+
+		<textlist name="gamelist">
+				<selectedColor>7adbff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+                <fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+                <pos>0.71 0.163</pos>
+                <size>0.27 0.60</size>
+                <fontSize>0.045</fontSize>
+                <lineSpacing>1.40</lineSpacing>
+                <horizontalMargin>0.010</horizontalMargin>
+                <alignment>left</alignment>
+                <forceUppercase>1</forceUppercase>
+                <selectorHeight>0.065</selectorHeight>
+            </textlist>
+         
+		<text name="rating_label" extra="true">
+				<pos>0.45 0.25</pos>
+				<text>Rating</text>
+				<color>00ffd9</color>
+				<fontPath>./../art/TinyUnicode.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
+				<fontSize>0.07</fontSize>
+				<size>0.25 0.0333333333333333</size>
+			</text>
+			
+			<rating name="md_rating">
+				<pos>0.45 0.30</pos>
+				<size>0.0166666666666667 0.0296296296296296</size>		
+				<filledPath>./../art/heart_filled.png</filledPath>
+				<unfilledPath>./../art/heart_empty.png</unfilledPath>
+			</rating>
+
+			<datetime name="md_releasedate">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<format>(c)%Y</format>
+				<pos>0.41 0.825	</pos>
+				<size>0.10 0.03</size>
+				<forceUppercase>1</forceUppercase>
+			</datetime>
+			<text name="md_lbl_publisher">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<text>Developer:</text>
+				<color>ffffff</color>
+				<pos>0.510 0.825</pos>
+				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+			<text name="md_publisher">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.660 0.825</pos>
+				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
+			</text>
+					
+			<text name="md_lbl_players">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<pos>0.41 0.850</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>
+
+			<text name="md_players">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.525 0.845</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>
+			
+			<text name="md_lbl_lastplayed">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<pos>0.41 0.875</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>
+			
+			<datetime name="md_lastplayed">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.600 0.872</pos>
+				<size>0.192 0.049</size>
+				<forceUppercase>1</forceUppercase>
+			</datetime>
+			
+			<text name="md_lbl_playcount">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<pos>0.41 0.900</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+
+			<text name="md_playcount">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.600 0.895</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+
+			<text name="md_lbl_rating">
+                <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                <pos>1 1</pos>
+                <size>0.001 0.001</size>
+                <forceUppercase>1</forceUppercase>
+            </text>
+
+	</view>
+
+<feature supported="video">
+
+		<view name="video">
+			<video name="md_video">
+				<pos>0.41 0.50</pos>			
+				<origin>0 0</origin>
+				<size>0.3 0.3</size>
+				<delay>0.2</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.41 0.39</pos>
+				<origin>0 0</origin>
+				<size>0.3 0.10</size>
+			</image>
+
+			<image name="md_image">
+				<pos>0.03 0.23</pos>
+				<origin>0 0</origin>
+				<size>0.35 0.50</size>
+			</image>
+		</view>
+
+	</feature>
+
+</theme>

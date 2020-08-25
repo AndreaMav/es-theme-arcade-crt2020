@@ -1,0 +1,80 @@
+<!--
+theme name:		es-pb
+version:		1.4
+author:			AndreaMav
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./_inc/system_and.png</path>
+				<tile>false</tile>
+			</image>
+
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	</view>
+
+	<!-- BOX LOGO  -->
+		<image name="logo_helper" extra="true">
+			<path>./../art/arcand.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.6 0.8</pos>
+			<size>0.4 0.20</size>
+			
+		</image>
+
+	
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	</view>
+
+
+
+
+
+<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.5 0.30</pos>			
+				<origin>0 0</origin>
+				<!--<maxSize>0.4 0.6</maxSize> quasi OK -->
+				<size>0.4 0.6</size>
+				<delay>0.2</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.48 0.18</pos>
+				<origin>0 0</origin>
+				<!--<maxSize>1 0.099</maxSize> quasi ok -->
+				<size>0.45 0.10</size>
+			</image>
+
+
+			<image name="bottom2" extra="true">
+				<pos>0.55 0.01</pos>
+				<size>0.330 0.160</size>
+				<path>./../art/arcand.png</path>
+				<tile>false</tile>
+				<!--<rotation>-10</rotation>-->
+		</image>
+
+			
+
+		</view>
+
+	</feature>
+
+</theme>
