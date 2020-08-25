@@ -1,0 +1,188 @@
+<!--
+theme name:		es-arcade-crt2
+version:		2.3
+author:			AndreaMav
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2
+Date:			24/08/2020
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="system">
+		<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./_inc/system_and.jpg</path>
+				<tile>false</tile>
+			</image>
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+		
+        <image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.65 0.58</pos>
+			<size>0.4 0.13</size>
+		</image>
+
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
+	   
+
+	</view>
+
+		
+	
+	<view name="basic, detailed, video">
+			<image name="logo">
+				<origin>0 0.5</origin>
+				<pos>0.05 0.0775</pos>
+				<size>0.40 0.14</size>
+				<path>./_inc/3doc.jpeg</path>
+			</image>
+			<image name="background">
+				<origin>0 0.5</origin>
+				<pos>0.5 0.0775</pos>
+				<size>0.40 0.14</size>
+				<path>./../art/arcand2.png</path>
+			</image>
+			<textlist name="gamelist">
+				<selectorColor>001B9D</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>7a6161</secondaryColor>
+				<forceUppercase>1</forceUppercase>
+				<pos>0.030 0.16</pos>
+				<size>0.400 0.8</size>
+				<alignment>left</alignment>
+				<horizontalMargin>0.00</horizontalMargin>
+				<lineSpacing>1.35</lineSpacing>
+				<fontSize>0.045</fontSize>
+				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			</textlist>
+
+			<image name="md_marquee">
+				<pos>0.48 0.18</pos>
+				<origin>0 0</origin>
+				<size>0.45 0.10</size>
+			</image>
+
+			<image name="md_image">
+				<pos>0.5 0.30</pos>			
+				<origin>0 0</origin>
+				<size>0.4 0.5</size>
+			</image>
+			<datetime name="md_releasedate">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<format>(c)%Y</format>
+				<pos>0.5 0.825	</pos>
+				<size>0.10 0.03</size>
+			</datetime>
+			<text name="md_lbl_publisher">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<text>Developer:</text>
+				<color>ffffff</color>
+				<pos>0.600 0.825</pos>
+				<size>0.400 0.03</size>
+			</text>	
+			<text name="md_publisher">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.740 0.825</pos>
+				<size>0.400 0.03</size>
+			</text>
+					
+			<text name="md_lbl_players">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<pos>0.5 0.850</pos>
+			</text>
+
+			<text name="md_players">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.610 0.845</pos>
+			</text>
+			
+			<text name="md_lbl_lastplayed">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<pos>0.5 0.875</pos>
+			</text>
+			
+			<datetime name="md_lastplayed">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.680 0.872</pos>
+				<size>0.192 0.049</size>
+			</datetime>
+			
+			<text name="md_lbl_playcount">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<pos>0.5 0.900</pos>
+			</text>	
+
+			<text name="md_playcount">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<pos>0.680 0.895</pos>
+			</text>	
+
+			<text name="md_lbl_rating">
+                <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                <pos>1 1</pos>
+                <size>0.001 0.001</size>
+            </text>
+
+
+
+	</view>
+
+
+
+
+
+<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.5 0.30</pos>			
+				<origin>0 0</origin>
+				<size>0.4 0.5</size>
+				<delay>0.2</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.48 0.18</pos>
+				<origin>0 0</origin>
+				<size>0.45 0.10</size>
+			</image>
+
+			
+
+		</view>
+
+	</feature>
+
+</theme>
