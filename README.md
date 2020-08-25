@@ -1,5 +1,5 @@
-# es-theme-arcade-crt2
-es-theme-arcade-crt 2.0
+# es-theme-arcade-crt2020
+es-theme-arcade-crt 2020
 
 Emulationstation Theme (soon AVAILABLE IN RETROPIE THEME LIST !)
 
@@ -20,3 +20,58 @@ It has some basic console themes and specific console themes, created to remembe
 CGA Supported - 15 khz Monitor CRT - 4:3 format - HDMI modern TV
 
 version 2.3 stay tuned !... soon some update !
+
+CGA Supported - 15 khz Monitor CRT - 4:3 format
+
+version 2.4
+
+##This release has this "Themes" optimized for arcade cabinet, 15 khz, crt and modern Tv HDMI:
+
+3do
+Amstradcpc 
+Arcade
+Auto Favorites - Collection
+Atari 2600
+Atari 5200
+Atari 7800
+Atari Lynx
+Atari Jaguar
+Atomiswave
+Commodore Amiga
+Commodore 64
+ColecoVision
+Lasergame
+Dreamcast
+Intellivision
+King Of Air
+Mame
+MasterSystem
+Ms Dos
+Msx
+Naomi
+Nintendo GameBoy
+Nintendo GameBoy Color
+Nintendo DS
+Nintendo Nes
+Nintendo SNes
+Nintendo 64
+Neo Geo
+Pc Engine
+Ports
+PSP
+Playstation
+Sega 32x
+Sega CD
+Sega Game Gear
+Sega MasterSystem
+Sega Megadrive
+Sega Saturn
+Sega Model 3
+Sharp Sg-1000
+SuperGrafx
+SuperModel
+Vectrex
+X68000
+Sinclair Zx Spectrum
+
+
