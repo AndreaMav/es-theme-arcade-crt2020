@@ -1,0 +1,219 @@
+<!--
+theme name:		es-arcade-crt2
+version:		2.3
+author:			AndreaMav
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2
+Date:			24/08/2020
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+    
+	<view name="system">
+
+			<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./_inc/pspexpo.jpg</path>
+				<tile>false</tile>
+			</image>
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+        </image>
+
+        <image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.65 0.58</pos>
+			<size>0.4 0.13</size>
+		</image>
+
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
+
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<pos>0.30 0.110</pos>
+			<size>0.460 0.15</size>
+			<origin>0.5 0.5</origin>
+		</image>
+		<image name="logo2" extra="true">
+			<path>./art/son.png</path>
+			<origin>0 0</origin>
+			<pos>0.04 0.8</pos>
+			<size>0.25 0.14</size>
+			<zIndex>50</zIndex>
+		</image>
+		<image name="logo2_helper" extra="true">
+			<origin>0 0</origin>
+			<pos>0.04 0.84</pos>
+			<size>0.25 0.06</size>
+			<path>./../_inc/images/bg_color.png</path>
+			<zIndex>49</zIndex>
+		</image>
+
+		
+		<image name="background" extra="true">
+				<pos>0.18 0.20</pos>
+				<size>0.6 0.40</size>
+				<tile>true</tile>
+				<path>./art/psp_console.jpg</path>
+				<tile>false</tile>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>001B9D</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>7a6161</secondaryColor>
+			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.311 0.610</pos>
+			<size>0.325 0.310</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<fontSize>0.04</fontSize>
+			<scrollSound>./art/scroll.wav</scrollSound>
+		</textlist>
+
+				
+		<text name="rating_label" extra="true">
+					<pos>0.700 0.800</pos>
+					<text>Rating</text>
+					<color>00ffd9</color>
+					<fontPath>./../art/TinyUnicode.ttf</fontPath>
+					<forceUppercase>1</forceUppercase>
+					<fontSize>0.07</fontSize>
+		</text>
+
+		<rating name="md_rating">
+			<pos>0.700 0.862</pos>
+			<size>0.0166666666666667 0.0296296296296296</size>		
+			<filledPath>./art/heart_filled.png</filledPath>
+			<unfilledPath>./art/heart_empty.png</unfilledPath>
+		</rating>
+
+		<text name="developer_label" extra="true">
+			<origin>0 0</origin>
+					<pos>0.700 0.680</pos>
+					<text>Developer</text>
+					<color>00ffd9</color>
+					<fontPath>./../art/TinyUnicode.ttf</fontPath>
+					<forceUppercase>1</forceUppercase>
+					<fontSize>0.07</fontSize>
+					<size>0.25 0.0333333333333333</size>
+				</text>
+
+		<text name="md_developer">
+			<origin>0 0</origin>
+			<color>ffffff</color>
+			<fontPath>./../art/TinyUnicode.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.07</fontSize>
+			<pos>0.700 0.720</pos>
+			<size>0.25 0.038</size>
+		</text>	
+
+		<text name="players_label" extra="true">
+			<origin>0 0</origin>
+					<pos>0.050 0.610</pos>
+					<text>Players:</text>
+					<color>00ffd9</color>
+					<fontPath>./../art/TinyUnicode.ttf</fontPath>
+					<forceUppercase>1</forceUppercase>
+					<fontSize>0.07</fontSize>
+					<size>0.25 0.0333333333333333</size>
+				</text>
+
+		<text name="md_players">
+			<origin>0 0</origin>
+			<color>0054B8</color>
+			<fontPath>./../art/TinyUnicode.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.07</fontSize>
+			<pos>0.200 0.610</pos>
+			<size>0.25 0.0333333333333333</size>
+		</text>
+
+		<text name="md_lbl_lastplayed">
+			<origin>0 0</origin>
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<forceUppercase>1</forceUppercase>
+				<pos>0.05 0.750</pos>
+			</text>
+			
+			<datetime name="md_lastplayed">
+				<origin>0 0</origin>
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<pos>0.050 0.780</pos>
+				<forceUppercase>1</forceUppercase>
+				<size>0.192 0.049</size>
+			</datetime>
+			
+			<text name="md_lbl_playcount">
+				<origin>0 0</origin>
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>00ffd9</color>
+				<forceUppercase>1</forceUppercase>
+				<pos>0.05 0.650</pos>
+			</text>	
+
+			<text name="md_playcount">
+				<origin>0 0</origin>
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>0054B8</color>
+				<pos>0.245 0.645</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+
+
+	</view>
+
+	<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.477 0.388</pos>
+				<size>0.325 0.280</size>
+				<origin>0.5 0.5</origin>			
+				<delay>0.2</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.55 0.035</pos>
+				<origin>0 0</origin>
+				<size>0.35 0.10</size>
+			</image>
+
+			
+		</view>
+
+	</feature>
+	
+	
+</theme>
