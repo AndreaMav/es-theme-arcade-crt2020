@@ -1,0 +1,204 @@
+<!--
+theme name:		es-arcade-crt2
+version:		2.3
+author:			AndreaMav
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2
+Date:			24/08/2020
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="system">
+		<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./_inc/system_and.png</path>
+				<tile>false</tile>
+			</image>
+
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	
+
+	
+		 <image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.65 0.58</pos>
+			<size>0.4 0.13</size>
+		</image>
+
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
+
+	</view>
+
+	
+	<view name="system, basic">
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+	</view>
+
+
+	<view name="detailed">
+
+		<image name="md_image">
+				<pos>0.345 0.080</pos>			
+				<origin>0 0</origin>
+				<size>0.310 0.21</size>
+		</image>
+
+									
+			
+			<image name="background" extra="true">
+				<pos>0 0</pos>
+				<size>1 0.5</size>
+				<path>./_inc/gg.png</path>
+				<tile>false</tile>
+			</image>
+
+			<textlist name="gamelist">
+				<selectorColor>1c1c1c</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>7a6161</secondaryColor>
+				<forceUppercase>1</forceUppercase>
+				<pos>0.60 0.5</pos>
+				<size>0.330 0.600</size>
+				<alignment>left</alignment>
+				<horizontalMargin>0.00</horizontalMargin>
+				<fontSize>0.045</fontSize>
+				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			</textlist>
+
+			<image name="bottom2" extra="true">
+				<pos>0.010 0.83</pos>
+				<size>0.330 0.160</size>
+				<path>./../art/arcand.png</path>
+				<tile>false</tile>
+			</image>
+
+			<text name="md_description">
+                <color>ffffff</color>
+				<forceUppercase>1</forceUppercase>
+				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<fontSize>0.04</fontSize>
+				<size>0.5 0.29</size>
+				<pos>0.010 0.520</pos>
+            </text>
+
+
+	
+		<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
+                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                        <pos>1 1</pos>
+                        <size>0.001 0.001</size>
+                    </text>
+
+        <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
+                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                        <pos>1 1</pos>
+                        <size>0.001 0.001</size>
+                    </datetime>
+
+
+	</view>
+
+
+
+
+<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.345 0.080</pos>			
+				<origin>0 0</origin>
+				
+				<size>0.310 0.21</size>
+				<delay>0.2</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+									
+			
+			<image name="background" extra="true">
+				<pos>0 0</pos>
+				<size>1 0.5</size>
+				<path>./_inc/gg.png</path>
+				<tile>false</tile>
+			</image>
+			<image name="logo_helper" extra="true">
+				<pos>0.37 0.85</pos>
+				<size>0.22 0.12</size>
+				<path>./_inc/system.svg</path>
+				<tile>false</tile>
+			</image>
+
+			<textlist name="gamelist">
+				<selectorColor>1c1c1c</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>7a6161</secondaryColor>
+				<forceUppercase>1</forceUppercase>
+				<pos>0.60 0.5</pos>
+				<size>0.330 0.600</size>
+				<alignment>left</alignment>
+				<horizontalMargin>0.00</horizontalMargin>
+				<fontSize>0.045</fontSize>
+				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			</textlist>
+
+			<image name="bottom2" extra="true">
+				<pos>0.010 0.83</pos>
+				<size>0.330 0.160</size>
+				<path>./../art/arcand.png</path>
+				<tile>false</tile>
+			</image>
+
+			<text name="md_description">
+                <color>ffffff</color>
+				<forceUppercase>1</forceUppercase>
+				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<fontSize>0.04</fontSize>
+				<size>0.5 0.29</size>
+				<pos>0.010 0.520</pos>
+            </text>
+
+
+	
+		<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
+                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                        <pos>1 1</pos>
+                        <size>0.001 0.001</size>
+                    </text>
+
+        <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
+                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                        <pos>1 1</pos>
+                        <size>0.001 0.001</size>
+                    </datetime>
+
+		</view>
+
+	</feature>
+
+</theme>
