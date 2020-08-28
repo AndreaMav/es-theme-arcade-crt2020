@@ -96,7 +96,7 @@ Date:			06/05/2020
 				<format>(c)%Y</format>
 				<pos>0.5 0.825	</pos>
 				<size>0.10 0.03</size>
-				<fontSize>0.035</fontSize>
+				
 			</datetime>
 			<text name="md_lbl_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
@@ -106,7 +106,7 @@ Date:			06/05/2020
 				<color>ffffff</color>
 				<pos>0.600 0.825</pos>
 				<size>0.400 0.03</size>
-				<fontSize>0.035</fontSize>
+				
 			</text>	
 			<text name="md_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
@@ -115,7 +115,7 @@ Date:			06/05/2020
 				<color>00ffd9</color>
 				<pos>0.740 0.825</pos>
 				<size>0.400 0.03</size>
-				<fontSize>0.035</fontSize>
+				
 			</text>
 					
 			<text name="md_lbl_players">
@@ -132,7 +132,7 @@ Date:			06/05/2020
 				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.610 0.845</pos>
-				<fontSize>0.035</fontSize>
+				
 			</text>
 			
 			<text name="md_lbl_lastplayed">
@@ -141,7 +141,7 @@ Date:			06/05/2020
 				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.875</pos>
-				<fontSize>0.035</fontSize>
+				
 			</text>
 			
 			<datetime name="md_lastplayed">
@@ -151,7 +151,7 @@ Date:			06/05/2020
 				<color>00ffd9</color>
 				<pos>0.680 0.872</pos>
 				<size>0.192 0.049</size>
-				<fontSize>0.035</fontSize>
+				
 			</datetime>
 			
 			<text name="md_lbl_playcount">
@@ -160,7 +160,7 @@ Date:			06/05/2020
 				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.900</pos>
-				<fontSize>0.035</fontSize>
+				
 			</text>	
 
 			<text name="md_playcount">
@@ -169,7 +169,7 @@ Date:			06/05/2020
 				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.680 0.895</pos>
-				<fontSize>0.035</fontSize>
+				
 			</text>	
 
 			<text name="md_lbl_rating">
@@ -178,7 +178,7 @@ Date:			06/05/2020
 				<forceUppercase>1</forceUppercase>
                 <pos>1 1</pos>
                 <size>0.001 0.001</size>
-                <fontSize>0.035</fontSize>
+                
             </text>
 
 
