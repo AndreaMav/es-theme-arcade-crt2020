@@ -127,14 +127,17 @@ Date:			24/08/2020
                         <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
                         <pos>1 1</pos>
                         <size>0.001 0.001</size>
+                        <fontSize>0.035</fontSize>
                     </text>
 
-       		 <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </datetime>
-		
+       		 <text name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
+						<pos>1 1</pos>
+						<size>0.192 0.030</size>
+						<color>cccccc</color>
+						<forceUppercase>1</forceUppercase>
+						<fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+						<fontSize>0.035</fontSize>
+					</text>
 	</view>
 
 
@@ -208,12 +211,16 @@ Date:			24/08/2020
                         <size>0.001 0.001</size>
                     </text>
 
-       		 <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </datetime>
+			<text name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
+						<pos>1 1</pos>
+						<size>0.192 0.030</size>
+						<color>cccccc</color>
+						<forceUppercase>1</forceUppercase>
+						<fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+						<fontSize>0.035</fontSize>
+					</text>
 
+       		
 		</view>
 
 	</feature>
