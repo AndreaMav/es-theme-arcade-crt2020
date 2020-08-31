@@ -81,7 +81,7 @@ Sinclair Zx Spectrum
 
 ===============================================
 #
-#31/08/2020 UPDATE
-added a new skin in : Arcade and AutoFavorites
-Megadrive Internal - minor graphic update code
+# 31/08/2020 UPDATE
+## added a new skin in : Arcade and AutoFavorites
+## Megadrive Internal - minor graphic update code
 
