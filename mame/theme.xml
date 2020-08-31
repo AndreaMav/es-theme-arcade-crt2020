@@ -1,9 +1,9 @@
 <!--
-theme name:		es-arcade-crt-arcade
+theme name:		es-arcade-crt2020
 version:		2.3
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			12/05/2020
+Date:			24/08/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -27,9 +27,25 @@ Date:			12/05/2020
 		<image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
 			<origin>0.2 0.5</origin>
-			<pos>0.65 0.75</pos>
+			<pos>0.65 0.58</pos>
 			<size>0.4 0.13</size>
 		</image>
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
 
 	</view>
 
@@ -69,6 +85,7 @@ Date:			12/05/2020
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>ffffff</color>
+				<fontSize>0.035</fontSize>
 				<format>(c)%Y</format>
 				<pos>0.5 0.825	</pos>
 				<size>0.10 0.03</size>
@@ -76,12 +93,14 @@ Date:			12/05/2020
 			<text name="md_lbl_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<text>Developer:</text>
+				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.600 0.825</pos>
 				<size>0.400 0.03</size>
 			</text>	
 			<text name="md_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.740 0.825</pos>
 				<size>0.400 0.03</size>
@@ -89,24 +108,28 @@ Date:			12/05/2020
 					
 			<text name="md_lbl_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.850</pos>
 			</text>
 
 			<text name="md_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.610 0.845</pos>
 			</text>
 			
 			<text name="md_lbl_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.875</pos>
 			</text>
 			
 			<datetime name="md_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.680 0.872</pos>
 				<size>0.192 0.049</size>
@@ -114,18 +137,21 @@ Date:			12/05/2020
 			
 			<text name="md_lbl_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.900</pos>
 			</text>	
 
 			<text name="md_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.680 0.895</pos>
 			</text>	
 
 			<text name="md_lbl_rating">
                 <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                <fontSize>0.035</fontSize>
                 <pos>1 1</pos>
                 <size>0.001 0.001</size>
             </text>
