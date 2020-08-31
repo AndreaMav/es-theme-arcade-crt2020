@@ -12,7 +12,7 @@ Date:			24/08/2020
 		<image name="background" extra="true">
 				<size>1 0.5</size>
 				<tile>true</tile>
-				<path>./_inc/system_and.png</path>
+				<path>./_inc/arcade_bg2.jpg</path>
 				<tile>false</tile>
 			</image>
 		<image name="logo">
