@@ -7,7 +7,7 @@ A simple theme for Emulation Station and RetroPie with support for the video and
 
 I created a new emulationstation theme. It is created to help friends passionate about arcade cabinets with CRT monitors 15 khz to take advantage of emulationstation with my theme.
 
-SPECIAL ADDITION :
+# SPECIAL ADDITION :
 double Video support 👍 1- 320x240p Monitor CRT... and 2- Modern TV with HDMI support with HD images
 
 es-theme-arcade-crt2020
@@ -30,7 +30,7 @@ CGA Supported - 15 khz Monitor CRT - 4:3 format
 
 version 2.4
 
-##This release has this "Themes" optimized for arcade cabinet, 15 khz, crt and modern Tv HDMI:
+## This release has this "Themes" optimized for arcade cabinet, 15 khz, crt and modern Tv HDMI:
 
 3do
 Amstradcpc 
