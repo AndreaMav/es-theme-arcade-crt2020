@@ -76,6 +76,7 @@ Date:			24/08/2020
 				<size>0.25 0.14</size>
 				<path>./_inc/vt.png</path>
 			</image>
+			
 			<textlist name="gamelist">
 				<selectorColor>001B9D</selectorColor>
 				<selectedColor>ffffff</selectedColor>
@@ -83,7 +84,7 @@ Date:			24/08/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.8</size>
+				<size>0.400 0.80</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
 				<lineSpacing>1.35</lineSpacing>
@@ -102,16 +103,32 @@ Date:			24/08/2020
 				<origin>0 0</origin>
 				<size>0.4 0.5</size>
 			</image>
+			<image name="logo2" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.47 0.815</pos>
+	         	<size>0.45 0.15</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
+	         <image name="logo3" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.01 0.14</pos>
+	         	<size>0.45 0.84</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>ffffff</color>
 				<format>(c)%Y</format>
 				<pos>0.5 0.825	</pos>
 				<size>0.10 0.03</size>
+				<fontSize>0.035</fontSize>
 				<forceUppercase>1</forceUppercase>
 			</datetime>
 			<text name="md_lbl_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<text>Developer:</text>
 				<color>ffffff</color>
 				<pos>0.600 0.825</pos>
@@ -120,6 +137,7 @@ Date:			24/08/2020
 			</text>	
 			<text name="md_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.740 0.825</pos>
 				<size>0.400 0.03</size>
@@ -128,6 +146,7 @@ Date:			24/08/2020
 					
 			<text name="md_lbl_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.850</pos>
 				<forceUppercase>1</forceUppercase>
@@ -135,6 +154,7 @@ Date:			24/08/2020
 
 			<text name="md_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.610 0.845</pos>
 				<forceUppercase>1</forceUppercase>
@@ -142,6 +162,7 @@ Date:			24/08/2020
 			
 			<text name="md_lbl_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.875</pos>
 				<forceUppercase>1</forceUppercase>
@@ -149,6 +170,7 @@ Date:			24/08/2020
 			
 			<datetime name="md_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.680 0.872</pos>
 				<size>0.192 0.049</size>
@@ -157,6 +179,7 @@ Date:			24/08/2020
 			
 			<text name="md_lbl_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.900</pos>
 				<forceUppercase>1</forceUppercase>
@@ -164,6 +187,7 @@ Date:			24/08/2020
 
 			<text name="md_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.680 0.895</pos>
 				<forceUppercase>1</forceUppercase>
@@ -171,6 +195,7 @@ Date:			24/08/2020
 
 			<text name="md_lbl_rating">
                 <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                <fontSize>0.035</fontSize>
                 <pos>1 1</pos>
                 <size>0.001 0.001</size>
                 <forceUppercase>1</forceUppercase>
