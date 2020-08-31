@@ -87,6 +87,20 @@ Date:			06/05/2020
 				<origin>0 0</origin>
 				<size>0.4 0.5</size>
 			</image>
+			<image name="logo2" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.47 0.815</pos>
+	         	<size>0.45 0.15</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
+	         <image name="logo3" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.01 0.14</pos>
+	         	<size>0.45 0.84</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<fontSize>0.035</fontSize>
