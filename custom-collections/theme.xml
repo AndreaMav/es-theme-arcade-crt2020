@@ -1,9 +1,9 @@
 <!--
-theme name:		es-arcade-crt
+theme name:		es-arcade-crt2020
 version:		2.2
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			06/05/2020
+Date:			02/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -49,6 +49,9 @@ Date:			06/05/2020
 		
 	
 	<view name="basic, detailed, video">
+
+
+
 			<image name="logo">
 				<origin>0 0.5</origin>
 				<pos>0.03 0.0775</pos>
@@ -173,13 +176,16 @@ Date:			06/05/2020
 			</text>	
 
 			<text name="md_lbl_rating">
-                <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                <fontSize>0.035</fontSize>
-				<forceUppercase>1</forceUppercase>
                 <pos>1 1</pos>
+                <color>000000</color>
                 <size>0.001 0.001</size>
-                
+              
             </text>
+
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
 
 
 
