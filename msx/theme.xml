@@ -54,6 +54,33 @@ Date:			24/08/2020
 	</view>
 
 	<view name="basic, detailed, video">
+		<text name="
+			md_lbl_description,
+			md_description,
+			md_lbl_developer,
+			md_developer,
+			md_lbl_genre,
+			md_genre,
+			md_lbl_lastplayed,
+			md_lastplayed,
+			md_lbl_playcount,
+			md_playcount,
+			md_lbl_players,
+			md_players,
+			md_lbl_players,
+			md_players,
+			md_lbl_publisher,
+			md_publisher,
+			md_lbl_rating,
+			md_rating,
+			md_lbl_releasedate,
+			md_releasedate
+			">
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+		</text>
 
 		<image name="Border Overlay" extra="true">
 				<origin>0 0</origin>
@@ -138,11 +165,17 @@ Date:			24/08/2020
 				<forceUppercase>1</forceUppercase>
 			</datetime>
 
-			<text name="md_rating">
-                <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+			<text name="md_lbl_rating">
                 <pos>1 1</pos>
+                <color>000000</color>
                 <size>0.001 0.001</size>
+              
             </text>
+
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
 
 		<image name="md_images">
 				<pos>0.58 0.16</pos>			
