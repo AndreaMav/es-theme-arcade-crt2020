@@ -1,9 +1,9 @@
 <!--
-theme name:		es-arcade-crt2
+theme name:		es-arcade-crt2020
 version:		2.3
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			24/08/2020
+Date:			2/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -144,10 +144,15 @@ Date:			24/08/2020
 			</text>	
 
 			<text name="md_lbl_rating">
-                <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
                 <pos>1 1</pos>
+                <color>000000</color>
                 <size>0.001 0.001</size>
+              
             </text>
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
 
 
 	</view>
@@ -171,10 +176,7 @@ Date:			24/08/2020
 				<origin>0 0</origin>
 				<size>0.45 0.10</size>
 			</image>
-
-			
-
-		</view>
+</view>
 
 	</feature>
 
