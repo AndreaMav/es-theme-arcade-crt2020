@@ -1,9 +1,9 @@
 <!--
-theme name:		es-arcade-crt2
+theme name:		es-arcade-crt2020
 version:		2.3
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+Date:			2/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -50,7 +50,7 @@ Date:			24/08/2020
 	
 	<view name="system, basic">
 		<image name="logo">
-			<path>./_inc/system.jpg</path>
+			<path>./_inc/system.svg</path>
 		</image>
 	</view>
 
