@@ -152,6 +152,11 @@ Date:			24/08/2020
                 <size>0.001 0.001</size>
             </text>
 
+            <rating name="md_rating">
+			<filledPath>./../art/invisible.png</filledPath>
+			<unfilledPath>./../art/invisible.png</unfilledPath>
+		</rating>
+
 
 
 	</view>
