@@ -1,9 +1,9 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+version:		2.4
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			24/08/2020
+Date:			2/0/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -58,6 +58,35 @@ Date:			24/08/2020
 		
 	
 	<view name="basic, detailed, video">
+
+		<text name="
+			md_lbl_description,
+			md_description,
+			md_lbl_developer,
+			md_developer,
+			md_lbl_genre,
+			md_genre,
+			md_lbl_lastplayed,
+			md_lastplayed,
+			md_lbl_playcount,
+			md_playcount,
+			md_lbl_players,
+			md_players,
+			md_lbl_players,
+			md_players,
+			md_lbl_publisher,
+			md_publisher,
+			md_lbl_rating,
+			md_rating,
+			md_lbl_releasedate,
+			md_releasedate
+			">
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+		</text>
+
 			<image name="logo_helper"  extra="true">
 				<origin>0 0.5</origin>
 				<pos>0.30 0.0775</pos>
@@ -98,11 +127,25 @@ Date:			24/08/2020
 				<size>0.45 0.10</size>
 			</image>
 
-			<image name="md_image">
-				<pos>0.5 0.30</pos>			
+			<!--<image name="md_image">
+				<pos>0.5 0.30</pos>				
 				<origin>0 0</origin>
-				<size>0.4 0.5</size>
-			</image>
+				<maxSize>0.38 0.48</maxSize>
+			</image>-->
+			<image name="logoM" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+				<pos>0.47 0.15</pos>
+				<size>0.45 0.13</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
+			<image name="logoV" extra="true">
+	            <tile>false</tile>
+	            <pos>0.47 0.28</pos>			
+				<origin>0 0</origin>
+				<size>0.45 0.52</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
 			<image name="logo2" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
@@ -117,6 +160,7 @@ Date:			24/08/2020
 	         	<size>0.45 0.84</size>           
 	            <path>./../art/backlin.png</path>
 	         </image>
+
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>ffffff</color>
@@ -194,12 +238,15 @@ Date:			24/08/2020
 			</text>	
 
 			<text name="md_lbl_rating">
-                <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                <fontSize>0.035</fontSize>
                 <pos>1 1</pos>
+                <color>000000</color>
                 <size>0.001 0.001</size>
-                <forceUppercase>1</forceUppercase>
+              
             </text>
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
 
 
 
@@ -214,11 +261,11 @@ Date:			24/08/2020
 		<view name="video">
 
 			<video name="md_video">
-				<pos>0.5 0.30</pos>			
 				<origin>0 0</origin>
-				<size>0.4 0.5</size>
-				<delay>0.2</delay>
-				<default></default>
+				<pos>0.465 0.27</pos>
+				<size>0.46 0.535</size>
+				<delay>1</delay>
+				<default>static.mp4</default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
 			</video>
