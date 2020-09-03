@@ -3,7 +3,7 @@ theme name:		es-arcade-crt2020
 version:		2.4
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			2/0/2020
+Date:			3/0/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -99,12 +99,14 @@ Date:			2/0/2020
 				<pos>0.04 0.0775</pos>
 				<size>0.25 0.14</size>
 				<path>./_inc/sg.jpg</path>
+				<tile>false</tile>
 			</image>
 			<image name="logo">
 				<origin>0 0.5</origin>
 				<pos>0.69 0.0775</pos>
 				<size>0.25 0.14</size>
 				<path>./_inc/vt.png</path>
+				<tile>false</tile>
 			</image>
 			
 			<textlist name="gamelist">
@@ -122,17 +124,9 @@ Date:			2/0/2020
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
 
-			<image name="md_marquee">
-				<pos>0.48 0.18</pos>
-				<origin>0 0</origin>
-				<size>0.45 0.10</size>
-			</image>
+			
 
-			<!--<image name="md_image">
-				<pos>0.5 0.30</pos>				
-				<origin>0 0</origin>
-				<maxSize>0.38 0.48</maxSize>
-			</image>-->
+			
 			<image name="logoM" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
@@ -142,7 +136,7 @@ Date:			2/0/2020
 	         </image>
 			<image name="logoV" extra="true">
 	            <tile>false</tile>
-	            <pos>0.47 0.28</pos>			
+	            <pos>0.47 0.29</pos>			
 				<origin>0 0</origin>
 				<size>0.45 0.52</size>          
 	            <path>./../art/backlin.png</path>
@@ -249,11 +243,22 @@ Date:			2/0/2020
 				<unfilledPath>./../art/invisible.png</unfilledPath>
 			</rating>
 
-
-
 	</view>
 
 
+<view name="basic, detailed">
+			<image name="md_marquee">
+				<origin>0 0</origin>
+				<pos>0.49 0.158</pos>
+				<size>0.405 0.11</size>
+			</image>
+
+			<image name="md_image">
+				<origin>0 0</origin>
+				<pos>0.49 0.30</pos>
+				<size>0.405 0.48</size>
+			</image>
+</view>
 
 
 
@@ -263,8 +268,8 @@ Date:			2/0/2020
 
 			<video name="md_video">
 				<origin>0 0</origin>
-				<pos>0.465 0.27</pos>
-				<size>0.46 0.535</size>
+				<pos>0.49 0.313</pos>
+				<size>0.405 0.48</size>
 				<delay>1</delay>
 				<default>static.mp4</default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
@@ -272,13 +277,10 @@ Date:			2/0/2020
 			</video>
 
 			<image name="md_marquee">
-				<pos>0.48 0.18</pos>
 				<origin>0 0</origin>
-				<size>0.45 0.10</size>
+				<pos>0.49 0.158</pos>
+				<size>0.405 0.11</size>
 			</image>
-
-			
-
 		</view>
 
 	</feature>
