@@ -2,11 +2,12 @@
 theme name:		es-arcade-crt2020
 version:		2.4
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
 Date:			2/0/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
