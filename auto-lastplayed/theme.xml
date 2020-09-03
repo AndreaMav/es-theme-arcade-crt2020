@@ -1,11 +1,55 @@
+<!--
+theme name:		es-arcade-crt2020
+version:		2.4
+author:			AndreaMav
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			2/0/2020
+-->
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
+	
+	<view name="system">
+		<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./_inc/system_and.jpg</path>
+				<tile>false</tile>
+			</image>
+		<image name="logo">
+			<path>./_inc/system.svg</path>
+		</image>
+		
+        <image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.65 0.58</pos>
+			<size>0.4 0.13</size>
+		</image>
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
+
+	</view>
 
 	<view name="system, basic, detailed, video">
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 		</image>
+
 	</view>
 
 </theme>
