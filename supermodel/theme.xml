@@ -1,9 +1,9 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+version:		2.4
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			2/0/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -55,7 +55,7 @@ Date:			24/08/2020
 		</image>
 	</view>
 
-<view name="detailed">
+<view name="detailed, video">
 
 	<image name="logo">
 				<path>./_inc/logosm3.png</path>
@@ -84,23 +84,21 @@ Date:			24/08/2020
 				<fontSize>0.045</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
-				
 
-			<image name="md_image">
-				<pos>0.056 0.45</pos>			
+			<image name="logoV" extra="true">
+	            <tile>false</tile>
+	            <pos>0.035 0.30</pos>			
 				<origin>0 0</origin>
-				<size>0.45 0.45</size>
-				<delay>1</delay>
-				<default>./../_res/images/static.mp4</default>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-			</image>
-
-			<image name="md_marquee">
-				<pos>0.056 0.32</pos>
-				<origin>0 0</origin>
-				<size>0.45 0.12</size>
-			</image>
+				<size>0.5 0.52</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
+	         <image name="logoV-highlight" extra="true">
+	            <path>./../_res/images/white.png</path>
+	            <origin>0 0</origin>
+	            <pos>0.06 0.445</pos>
+	            <size>0.45 0.005</size>
+	            <color>BA7300</color>
+	        </image>
 
 			<image name="bottom1" extra="true">
 				<origin>0 0</origin>
@@ -116,93 +114,6 @@ Date:			24/08/2020
 				<size>0.330 0.160</size>
 				<path>./../art/arcand.png</path>
 				<tile>false</tile>
-				
-			</image>
-
-
-				<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </text>
-
-	        <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </datetime>
-		
-
-	</view>
-
-
-
-
-
-<feature supported="video">
-
-		<view name="video">
-
-			<image name="logo">
-				<path>./_inc/logosm3.png</path>
-				<origin>0 0</origin>
-                <pos>0.020 0.015</pos>
-			</image>
-
-			<image name="gamelist-matte" extra="true">
-                <path>./../_res/images/red.png</path>
-                <origin>0 0</origin>
-                <pos>0.53 0.27</pos>
-                <size>0.4 0.660</size>
-                <tile>false</tile>
-            </image>
-			
-			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
-				<selectedColor>ffffff</selectedColor>
-				<primaryColor>ffffff</primaryColor>
-				<secondaryColor>7a6161</secondaryColor>
-				<forceUppercase>1</forceUppercase>
-				<pos>0.55 0.29</pos>
-				<size>0.370 0.640</size>
-				<alignment>left</alignment>
-				<horizontalMargin>0.00</horizontalMargin>
-				<fontSize>0.045</fontSize>
-				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
-			</textlist>
-				
-
-			<video name="md_video">
-				<pos>0.056 0.45</pos>			
-				<origin>0 0</origin>
-				<size>0.45 0.35</size>
-				<delay>1</delay>
-				<default>./../_res/images/static.mp4</default>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-			</video>
-
-			<image name="md_marquee">
-				<pos>0.056 0.32</pos>
-				<origin>0 0</origin>
-				<size>0.45 0.12</size>
-			</image>
-
-			<image name="bottom1" extra="true">
-				<origin>0 0</origin>
-                <pos>0.29 0.030</pos>
-				<size>0.20 0.23</size>
-				<path>./_inc/sr2.jpg</path>
-				<tile>false</tile>
-				<rotation>-5</rotation>				
-			</image>
-
-			<image name="bottom2" extra="true">
-				<pos>0.55 0.01</pos>
-				<size>0.330 0.160</size>
-				<path>./../art/arcand.png</path>
-				<tile>false</tile>
-				
 			</image>
 
 			<text name="md_lbl_lastplayed">
@@ -249,6 +160,59 @@ Date:			24/08/2020
                         <pos>1 1</pos>
                         <size>0.001 0.001</size>
                     </datetime>
+
+            <text name="md_lbl_rating">
+                <pos>1 1</pos>
+                <color>000000</color>
+                <size>0.001 0.001</size>
+              
+            </text>
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
+	</view>
+
+	<view name="detailed">
+
+			<image name="md_marquee">
+				<pos>0.06 0.32</pos>
+				<origin>0 0</origin>
+				<size>0.45 0.12</size>
+			</image>
+			<image name="md_image">
+				<pos>0.06 0.45</pos>			
+				<origin>0 0</origin>
+				<size>0.45 0.35</size>
+			</image>
+	</view>
+
+
+
+<feature supported="video">
+
+		<view name="video">
+
+			
+				
+
+			<video name="md_video">
+				<pos>0.06 0.45</pos>			
+				<origin>0 0</origin>
+				<size>0.45 0.35</size>
+				<delay>1</delay>
+				<default>./../_res/images/static.mp4</default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.06 0.32</pos>
+				<origin>0 0</origin>
+				<size>0.45 0.12</size>
+			</image>
+
+			
 
 		</view>
 
