@@ -1,9 +1,10 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
+version:		2.4
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			24/08/2020
+Date:			3/09/2020
+license:		creative commons CC-BY-NC-SA
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -68,8 +69,8 @@ Date:			24/08/2020
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
-				<pos>0.030 0.66</pos>
-				<size>0.350 0.3</size>
+				<pos>0.030 0.665</pos>
+				<size>0.350 0.30</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
 				<lineSpacing>1.35</lineSpacing>
@@ -90,7 +91,7 @@ Date:			24/08/2020
 	         	<size>0.45 0.15</size>           
 	            <path>./../art/backlin.png</path>
 	         </image>
-	        <image name="logo3" extra="true">
+	        <image name="logoL" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
 	            <pos>0.01 0.66</pos>
