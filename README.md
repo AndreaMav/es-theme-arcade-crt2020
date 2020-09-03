@@ -1,14 +1,14 @@
 # es-theme-arcade-crt2020
 es-theme-arcade-crt 2020
 
-Emulationstation Theme (soon AVAILABLE IN RETROPIE THEME LIST !)
+Emulationstation Theme (AVAILABLE IN RETROPIE THEME LIST !)
 
 A simple theme for Emulation Station and RetroPie with support for the video and pictures. Originally based on the theme es-theme-arcade-crt, and then full updated.
 
 I created a new emulationstation theme. It is created to help friends passionate about arcade cabinets with CRT monitors 15 khz to take advantage of emulationstation with my theme.
 
 # SPECIAL ADDITION :
-double Video support 👍 1- 320x240p Monitor CRT... and 2- Modern TV with HDMI support with HD images
+Double Video support 👍 1- 320x240p Monitor CRT... and 2- Modern TV with HDMI support with HD images
 
 es-theme-arcade-crt2020
 
@@ -24,7 +24,7 @@ It has some basic console themes and specific console themes, created to remembe
 
 CGA Supported - 15 khz Monitor CRT - 4:3 format - HDMI modern TV
 
-version 2.3 stay tuned !... soon some update !
+version 2.4 stay tuned !... soon some update !
 
 CGA Supported - 15 khz Monitor CRT - 4:3 format
 
