@@ -81,6 +81,14 @@ Date:			2/09/2020
 				<size>0.25 0.13</size>
 				<path>./_inc/system.svg</path>
 			</image>
+
+			<image name="logo2" extra="true">
+				<origin>0 0</origin>
+				<pos>0.030 0.85</pos>
+				<size>0.4 0.13</size>
+				<path>./art/shoo.jpg</path>
+			</image>
+
 			<image name="bottom2" extra="true">
 				<pos>0.52 0.01</pos>
 				<size>0.380 0.170</size>
@@ -95,7 +103,7 @@ Date:			2/09/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.8</size>
+				<size>0.400 0.7</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
 				<lineSpacing>1.35</lineSpacing>
