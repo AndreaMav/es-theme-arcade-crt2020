@@ -57,6 +57,7 @@ Date:			24/08/2020
 				<size>0.38 0.5</size>
 				<path>./_inc/system_and.png</path>
 				<tile>false</tile>
+				<color>ffffff66</color>
 			</image>
 
 			
@@ -88,6 +89,7 @@ Date:			24/08/2020
 			</image>
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<format>(c)%Y</format>
 				<pos>0.5 0.825	</pos>
@@ -95,6 +97,7 @@ Date:			24/08/2020
 			</datetime>
 			<text name="md_lbl_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<text>Developer:</text>
 				<color>ffffff</color>
 				<pos>0.600 0.825</pos>
@@ -102,6 +105,7 @@ Date:			24/08/2020
 			</text>	
 			<text name="md_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.740 0.825</pos>
 				<size>0.400 0.03</size>
@@ -109,24 +113,28 @@ Date:			24/08/2020
 					
 			<text name="md_lbl_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.850</pos>
 			</text>
 
 			<text name="md_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.610 0.845</pos>
 			</text>
 			
 			<text name="md_lbl_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.875</pos>
 			</text>
 			
 			<datetime name="md_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.680 0.872</pos>
 				<size>0.192 0.049</size>
@@ -134,18 +142,21 @@ Date:			24/08/2020
 			
 			<text name="md_lbl_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.900</pos>
 			</text>	
 
 			<text name="md_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.680 0.895</pos>
 			</text>	
 
 			<text name="md_lbl_rating">
                 <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                <forceUppercase>1</forceUppercase>
                 <pos>1 1</pos>
                 <size>0.001 0.001</size>
             </text>
