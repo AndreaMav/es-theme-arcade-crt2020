@@ -1,20 +1,14 @@
 <!--
-theme name:		es-arcade-crt2
+theme name:		es-arcade-crt2020
 version:		2.3
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+Date:			3/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	
-	        <theme>
-			    <formatVersion>4</formatVersion>
-			    <include>./_res/colorsets/cygnus.xml</include>
-			    <include>./_res/templates/simpleart-nometa.xml</include>
-			</theme>
-	
-
+    <include>./../theme.xml</include>
+			
 	<view name="system">
 		<image name="background" extra="true">
 				<size>1 0.5</size>
@@ -42,8 +36,7 @@ Date:			24/08/2020
 	        <pos>0 0.6537</pos>
 	        <size>1 0.2325</size>
 	      </carousel>
-
-				 
+			 
 		<text name="systemInfo">
 			<color>d0d0d0</color>
 			<pos>0.15 0.5</pos>
@@ -52,118 +45,24 @@ Date:			24/08/2020
 	        <fontSize>0.05</fontSize>
 			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 	      </text>
-
-
 	</view>
-
-	
-		
 	
 	<view name="basic, detailed, video">
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 		</image>
-
-		
 	</view>
-
-	<view name="basic, detailed, video">
-
-	<datetime name="md_releasedate">
-				<fontPath>./../art/piccolo.ttf</fontPath>
-				<color>7373ff</color>
-				<format>(c)%Y</format>
-				<pos>0.035 0.825	</pos>
-				<size>0.10 0.03</size>
-				<forceUppercase>1</forceUppercase>
-			</datetime>
-			<text name="md_lbl_publisher">
-				<fontPath>./../art/piccolo.ttf</fontPath>
-				<text>Developer:</text>
-				<color>7373ff</color>
-				<pos>0.130 0.825</pos>
-				<size>0.400 0.03</size>
-				<forceUppercase>1</forceUppercase>
-			</text>	
-			<text name="md_publisher">
-				<fontPath>./../art/piccolo.ttf</fontPath>
-				<color>ffffff</color>
-				<pos>0.130 0.855</pos>
-				<size>0.400 0.03</size>
-				<forceUppercase>1</forceUppercase>
-			</text>
-	</view>
-
 
 	<view name="detailed">
-
-		<image name="background" >
-				<tile>false</tile>
-				<pos>0.010 0</pos>
-				<origin>0 0</origin>
-				<size>1 1</size>
-				<path>./art/c64_d_.png</path>
-			</image>
-
-			<image name="logo">
-				<path>./art/system.svg</path>
-				<pos>0.700 0.864</pos>
-				<maxSize>0.460 0.126</maxSize>
-				<origin>0.5 0.5</origin>
-			</image>
-
-			
-			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
-				<selectedColor>ffffff</selectedColor>
-				<primaryColor>7373ff</primaryColor>
-				<secondaryColor>7a6161</secondaryColor>
-				<fontPath>./../art/C64.ttf</fontPath>
-				<forceUppercase>1</forceUppercase>
-				<pos>0.032 0.310</pos>
-				<size>0.460 0.500</size>
-				<alignment>left</alignment>
-				<horizontalMargin>0.00</horizontalMargin>
-				<fontSize>0.03</fontSize>
-				<scrollSound>./art/scroll.wav</scrollSound>
-			</textlist>
-
-			<image name="md_image">
+		<image name="md_image">
 				<pos>0.57 0.35</pos>			
 				<origin>0 0</origin>
 				<size>0.28 0.40</size>
-			</image>
+		</image>
 
-			<text name="rating_label" extra="true">
-					<pos>0.56 0.032</pos>
-					<text>@AndreaMav 2020</text>
-					<color>0000AA</color>
-					<fontPath>./../art/C64.ttf</fontPath>
-					<forceUppercase>1</forceUppercase>
-					<fontSize>0.03</fontSize>
-					<size>0.40 0.008</size>
-				</text>
-
-			<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_lbl_genre, md_lbl_developer, md_lbl_players">
-
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </text>
-
-        <datetime name="md_lbl_lastplayed, md_lbl_releasedate, md_players">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </datetime>
-		
 	</view>
 
-
-
-<feature supported="video">
-
-		<view name="video">
+	<view name="detailed, video">
 
 			<image name="background" >
 				<tile>false</tile>
@@ -196,6 +95,35 @@ Date:			24/08/2020
 				<scrollSound>./art/scroll.wav</scrollSound>
 			</textlist>
 
+			<text name="logo_label" extra="true">
+					<pos>0.56 0.032</pos>
+					<text>@AndreaMav 2020</text>
+					<color>0000AA</color>
+					<fontPath>./../art/C64.ttf</fontPath>
+					<forceUppercase>1</forceUppercase>
+					<fontSize>0.03</fontSize>
+					<size>0.40 0.008</size>
+				</text>
+
+			<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher,md_releasedate, md_lbl_lastplayed, md_lbl_releasedate, md_players, md_lbl_players">
+                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
+                        <origin>0 0</origin>
+                        <pos>1 1</pos>
+                        <size>0.001 0.001</size>
+                    </text>
+
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
+		
+	</view>
+
+
+
+<feature supported="video">
+
+		<view name="video">
 			<video name="md_video">
 				<pos>0.57 0.35</pos>			
 				<origin>0 0</origin>
@@ -211,32 +139,6 @@ Date:			24/08/2020
 				<origin>0 0</origin>
 				<size>0.40 0.10</size>
 			</image>
-
-			<text name="rating_label" extra="true">
-					<pos>0.56 0.032</pos>
-					<text>@AndreaMav 2020</text>
-					<color>0000AA</color>
-					<fontPath>./../art/C64.ttf</fontPath>
-					<forceUppercase>1</forceUppercase>
-					<fontSize>0.03</fontSize>
-					<size>0.40 0.008</size>
-				</text>
-
-			<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_lbl_genre, md_lbl_developer, md_lbl_players">
-
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </text>
-
-        <datetime name="md_lbl_lastplayed, md_lbl_releasedate, md_players">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </datetime>
-
 		</view>
-
 	</feature>
-
 </theme>
