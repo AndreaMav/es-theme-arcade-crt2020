@@ -88,4 +88,8 @@ Sinclair Zx Spectrum
 #
 # 1/09/2020 UPDATE
 ## added a new skin in : Nintendo GB Advance
+===============================================
+#
+# 3/09/2020 UPDATE
+## added SUPPORT for users that use emulationstation without images and video
 
