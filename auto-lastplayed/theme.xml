@@ -45,11 +45,229 @@ Date:			2/0/2020
 
 	</view>
 
-	<view name="system, basic, detailed, video">
-		<image name="logo">
-			<path>./_inc/system.svg</path>
-		</image>
+	<view name="detailed, video">
+
+		<text name="
+			md_lbl_description,
+			md_description,
+			md_lbl_developer,
+			md_developer,
+			md_lbl_genre,
+			md_genre,
+			md_lbl_lastplayed,
+			md_lastplayed,
+			md_lbl_playcount,
+			md_playcount,
+			md_lbl_players,
+			md_players,
+			md_lbl_players,
+			md_players,
+			md_lbl_publisher,
+			md_publisher,
+			md_lbl_rating,
+			md_rating,
+			md_lbl_releasedate,
+			md_releasedate
+			">
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+		</text>
+
+			<image name="logo_helper"  extra="true">
+				<origin>0 0.5</origin>
+				<pos>0.30 0.0775</pos>
+				<size>0.38 0.14</size>
+				<path>./../art/arcand2.png</path>
+			</image>
+			<image name="background">
+				<origin>0 0.5</origin>
+				<pos>0.04 0.0775</pos>
+				<size>0.25 0.14</size>
+				<path>./_inc/sg.jpg</path>
+			</image>
+			<image name="logo">
+				<origin>0 0.5</origin>
+				<pos>0.69 0.0775</pos>
+				<size>0.25 0.14</size>
+				<path>./_inc/vt.png</path>
+			</image>
+			
+			<textlist name="gamelist">
+				<selectorColor>001B9D</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>7a6161</secondaryColor>
+				<forceUppercase>1</forceUppercase>
+				<pos>0.030 0.16</pos>
+				<size>0.400 0.80</size>
+				<alignment>left</alignment>
+				<horizontalMargin>0.00</horizontalMargin>
+				<lineSpacing>1.35</lineSpacing>
+				<fontSize>0.045</fontSize>
+				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			</textlist>
+
+			<image name="md_marquee">
+				<pos>0.48 0.18</pos>
+				<origin>0 0</origin>
+				<size>0.45 0.10</size>
+			</image>
+
+			<!--<image name="md_image">
+				<pos>0.5 0.30</pos>				
+				<origin>0 0</origin>
+				<maxSize>0.38 0.48</maxSize>
+			</image>-->
+			<image name="logoM" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+				<pos>0.47 0.15</pos>
+				<size>0.45 0.13</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
+			<image name="logoV" extra="true">
+	            <tile>false</tile>
+	            <pos>0.47 0.28</pos>			
+				<origin>0 0</origin>
+				<size>0.45 0.52</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
+			<image name="logo2" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.47 0.815</pos>
+	         	<size>0.45 0.15</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
+	         <image name="logo3" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.01 0.14</pos>
+	         	<size>0.45 0.84</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
+
+			<datetime name="md_releasedate">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<color>ffffff</color>
+				<format>(c)%Y</format>
+				<pos>0.5 0.825	</pos>
+				<size>0.10 0.03</size>
+				<fontSize>0.035</fontSize>
+				<forceUppercase>1</forceUppercase>
+			</datetime>
+			<text name="md_lbl_publisher">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<text>Developer:</text>
+				<color>ffffff</color>
+				<pos>0.600 0.825</pos>
+				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+			<text name="md_publisher">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<color>00ffd9</color>
+				<pos>0.740 0.825</pos>
+				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
+			</text>
+					
+			<text name="md_lbl_players">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<color>ffffff</color>
+				<pos>0.5 0.850</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>
+
+			<text name="md_players">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<color>00ffd9</color>
+				<pos>0.610 0.845</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>
+			
+			<text name="md_lbl_lastplayed">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<color>ffffff</color>
+				<pos>0.5 0.875</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>
+			
+			<datetime name="md_lastplayed">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<color>00ffd9</color>
+				<pos>0.680 0.872</pos>
+				<size>0.192 0.049</size>
+				<forceUppercase>1</forceUppercase>
+			</datetime>
+			
+			<text name="md_lbl_playcount">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<color>ffffff</color>
+				<pos>0.5 0.900</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+
+			<text name="md_playcount">
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<color>00ffd9</color>
+				<pos>0.680 0.895</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+
+			<text name="md_lbl_rating">
+                <pos>1 1</pos>
+                <color>000000</color>
+                <size>0.001 0.001</size>
+              
+            </text>
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
+
+
 
 	</view>
+
+
+
+
+
+<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<origin>0 0</origin>
+				<pos>0.465 0.27</pos>
+				<size>0.46 0.535</size>
+				<delay>1</delay>
+				<default>static.mp4</default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.48 0.18</pos>
+				<origin>0 0</origin>
+				<size>0.45 0.10</size>
+			</image>
+
+			
+
+		</view>
+
+	</feature>
 
 </theme>
