@@ -113,12 +113,12 @@ license:		creative commons CC-BY-NC-SA
 				<fontPath>./../art/TinyUnicode.ttf</fontPath>
 				<forceUppercase>1</forceUppercase>
 				<fontSize>0.07</fontSize>
-				<pos>0.049 0.45</pos>
+				<pos>0.041 0.45</pos>
 				<size>0.400 0.03</size>
 			</text>	
 		<text name="md_publisher">
 				<color>ffffff</color>
-				<pos>0.049 0.485</pos>
+				<pos>0.041 0.485</pos>
 				<size>0.400 0.03</size>
 				<fontPath>./../art/TinyUnicode.ttf</fontPath>
 				<forceUppercase>1</forceUppercase>
@@ -130,7 +130,7 @@ license:		creative commons CC-BY-NC-SA
 				<forceUppercase>1</forceUppercase>
 				<fontSize>0.07</fontSize>
 				<color>00ffd9</color>
-				<pos>0.049 0.53</pos>
+				<pos>0.041 0.53</pos>
 			</text>
 			
 			<datetime name="md_lastplayed">
@@ -138,7 +138,7 @@ license:		creative commons CC-BY-NC-SA
 				<forceUppercase>1</forceUppercase>
 				<fontSize>0.07</fontSize>
 				<color>ffffff</color>
-				<pos>0.049 0.58</pos>
+				<pos>0.041 0.58</pos>
 				<size>0.192 0.049</size>
 			</datetime>
 
