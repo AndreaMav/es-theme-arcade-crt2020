@@ -108,18 +108,18 @@ license:		creative commons CC-BY-NC-SA
         </image>
         
        
-        <image name="bottom-highlight" extra="true">
+          <!--<image name="bottom-highlight" extra="true">
             <path>./_res/images/white.png</path>
             <origin>0 0</origin>
             <pos>0 0.9345</pos>
             <size>1 0.005</size>
         </image>
-        <image name="bottom" extra="true">
+      	  <image name="bottom" extra="true">
             <path>./_res/images/white.png</path>
             <origin>0 1</origin>
             <pos>0 1</pos>
             <size>1 0.0655</size>
-        </image>
+        </image>-->
 
 
     <!-- System Specific Images -->
