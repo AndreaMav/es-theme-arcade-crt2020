@@ -1,12 +1,14 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
+version:		2.4
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			24/08/2020
+Date:			3/09/2020
+license:		creative commons CC-BY-NC-SA
 -->
 <theme>
-    <formatVersion>3</formatVersion>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
     
 
 	<view name="system">
@@ -62,6 +64,7 @@ Date:			24/08/2020
 				<size>0.80 0.77</size>
 				<path>./_inc/tv2600.jpg</path>
 				<tile>false</tile>
+				<zIndex>39</zIndex>
 		</image>
 
 		<image name="bottom2" extra="true">
@@ -110,12 +113,12 @@ Date:			24/08/2020
 				<fontPath>./../art/TinyUnicode.ttf</fontPath>
 				<forceUppercase>1</forceUppercase>
 				<fontSize>0.07</fontSize>
-				<pos>0.055 0.45</pos>
+				<pos>0.049 0.45</pos>
 				<size>0.400 0.03</size>
 			</text>	
 		<text name="md_publisher">
 				<color>ffffff</color>
-				<pos>0.055 0.485</pos>
+				<pos>0.049 0.485</pos>
 				<size>0.400 0.03</size>
 				<fontPath>./../art/TinyUnicode.ttf</fontPath>
 				<forceUppercase>1</forceUppercase>
@@ -127,7 +130,7 @@ Date:			24/08/2020
 				<forceUppercase>1</forceUppercase>
 				<fontSize>0.07</fontSize>
 				<color>00ffd9</color>
-				<pos>0.055 0.53</pos>
+				<pos>0.049 0.53</pos>
 			</text>
 			
 			<datetime name="md_lastplayed">
@@ -135,7 +138,7 @@ Date:			24/08/2020
 				<forceUppercase>1</forceUppercase>
 				<fontSize>0.07</fontSize>
 				<color>ffffff</color>
-				<pos>0.055 0.58</pos>
+				<pos>0.049 0.58</pos>
 				<size>0.192 0.049</size>
 			</datetime>
 
@@ -154,6 +157,7 @@ Date:			24/08/2020
 				<default>./../_res/images/static.mp4</default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
+				<zIndex>40</zIndex>
 			</video>
 
 			<image name="md_marquee">
