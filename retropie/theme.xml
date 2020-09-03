@@ -1,9 +1,10 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
+version:		2.4
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+Date:			3/09/2020
+license:		creative commons CC-BY-NC-SA
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -61,54 +62,37 @@ Date:			24/08/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.045</fontSize>
+				<size>0.330 0.700</size>
 		</textlist>
+
+		<rating name="md_rating">
+			<filledPath>./../art/invisible.png</filledPath>
+			<unfilledPath>./../art/invisible.png</unfilledPath>
+		</rating>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed,">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		
+		<text name="md_developer, md_publisher, md_genre, md_players, md_description">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		<image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0 0</origin>
+			<pos>0.05 0.72</pos>
+			<size>0.4 0.13</size>
+		</image>
+
 	</view>
-
-
-
-
-
-<feature supported="video, basic, detailed">
-
-		<view name="video, basic">
-
-
-			<video name="md_video">
-				<pos>0.5 0.30</pos>			
-				<origin>0 0</origin>
-				<size>0.4 0.6</size>
-				<delay>0.2</delay>
-				<default></default>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-			</video>
-
-			<image name="md_marquee">
-				<pos>0.48 0.18</pos>
-				<origin>0 0</origin>
-				<size>0.45 0.10</size>
-			</image>
-
-
-			<image name="bottom2" extra="true">
-				<pos>0.55 0.01</pos>
-				<size>0.330 0.160</size>
-				<path>./../art/arcand.png</path>
-				<tile>false</tile>
-			</image>
-			
-			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
-				<selectedColor>ffffff</selectedColor>
-				<primaryColor>ffffff</primaryColor>
-				<secondaryColor>7a6161</secondaryColor>
-				<forceUppercase>1</forceUppercase>
-				<fontPath>./../art/piccolo.ttf</fontPath>
-			</textlist>
-			
-
-		</view>
-
-	</feature>
-
 </theme>
