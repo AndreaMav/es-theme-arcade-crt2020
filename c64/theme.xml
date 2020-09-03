@@ -20,9 +20,7 @@ Date:			3/09/2020
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 		</image>
-
-
-		
+	
          <image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
 			<origin>0.2 0.5</origin>
@@ -105,7 +103,41 @@ Date:			3/09/2020
 					<size>0.40 0.008</size>
 				</text>
 
-			<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher,md_releasedate, md_lbl_lastplayed, md_lbl_releasedate, md_players, md_lbl_players">
+			<text name="md_lbl_lastplayed">
+				<fontPath>./../art/C64.ttf</fontPath>
+				<fontSize>0.025</fontSize>
+				<color>ffffff</color>
+				<pos>0.032 0.8</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>
+			
+			<datetime name="md_lastplayed">
+				<fontPath>./../art/C64.ttf</fontPath>
+				<fontSize>0.025</fontSize>
+				<color>00ffd9</color>
+				<pos>0.28 0.798</pos>
+				<size>0.192 0.049</size>
+				<forceUppercase>1</forceUppercase>
+			</datetime>
+
+			<text name="md_lbl_playcount">
+				<fontPath>./../art/C64.ttf</fontPath>
+				<fontSize>0.025</fontSize>
+				<color>ffffff</color>
+				<pos>0.032 0.835</pos>
+				<forceUppercase>1</forceUppercase>
+			</text>	
+
+			<text name="md_playcount">
+				<fontPath>./../art/C64.ttf</fontPath>
+				<fontSize>0.025</fontSize>
+				<color>00ffd9</color>
+				<pos>0.28 0.83</pos>
+				<size>0.192 0.049</size>
+				<forceUppercase>1</forceUppercase>
+			</text>
+
+			<text name="md_lbl_rating, md_lbl_genre,md_lbl_developer, md_developer, md_plateyers,  md_lbl_publisher,md_releasedate,  md_lbl_releasedate, md_players, md_lbl_players">
                         <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
                         <origin>0 0</origin>
                         <pos>1 1</pos>
