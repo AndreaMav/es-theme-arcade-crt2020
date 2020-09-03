@@ -7,6 +7,7 @@ Date:			2/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
@@ -51,15 +52,17 @@ Date:			2/09/2020
 	<view name="basic, detailed, video">
 			<image name="logo">
 				<origin>0 0.5</origin>
-				<pos>0.05 0.0775</pos>
+				<pos>0.03 0.0775</pos>
 				<size>0.40 0.14</size>
 				<path>./_inc/3doc.jpeg</path>
+				<tile>false</tile>
 			</image>
 			<image name="background">
 				<origin>0 0.5</origin>
-				<pos>0.5 0.0775</pos>
+				<pos>0.49 0.0775</pos>
 				<size>0.40 0.14</size>
 				<path>./../art/arcand2.png</path>
+				<tile>false</tile>
 			</image>
 			<textlist name="gamelist">
 				<selectorColor>001B9D</selectorColor>
@@ -169,24 +172,22 @@ Date:			2/09/2020
 		<view name="video">
 
 			<video name="md_video">
-				<pos>0.5 0.30</pos>			
 				<origin>0 0</origin>
-				<size>0.4 0.5</size>
-				<delay>0.2</delay>
-				<default></default>
+				<pos>0.49 0.31</pos>
+				<size>0.405 0.48</size>
+				<delay>1</delay>
+				<default>static.mp4</default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
 			</video>
 
 			<image name="md_marquee">
-				<pos>0.48 0.18</pos>
 				<origin>0 0</origin>
-				<size>0.45 0.10</size>
+				<pos>0.49 0.158</pos>
+				<size>0.405 0.11</size>
 			</image>
-
-			
-
 		</view>
+
 
 	</feature>
 
