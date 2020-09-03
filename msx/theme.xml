@@ -84,24 +84,18 @@ Date:			24/08/2020
 
 		<image name="Border Overlay" extra="true">
 				<origin>0 0</origin>
-				<pos>0.5 0.1</pos>
-				<size>0.4 0.5</size>
+				<pos>0.5 0.07</pos>
+				<size>0.4 0.38</size>
 				<path>./_inc/backlin.png</path>
 				<tile>false</tile>
 			</image>
 
-			<!--<image name="Border Overlay" extra="true">
-				<tile>false</tile>
-				<pos>0 0</pos>
-				<origin>0 0</origin>
-				<size>1 1</size>
-				<path>./background.png</path>
-			</image>-->		
+			
 
 			<image name="logo2" extra="true">
 				<path>./_inc/system.svg</path>
 				<origin>0 0</origin>
-				<pos>0.05 0.08</pos>
+				<pos>0.05 0.06</pos>
 				<size>0.4 0.13</size>
 			</image>
 			
@@ -202,7 +196,7 @@ Date:			24/08/2020
 
 
 			<video name="md_video">
-				<pos>0.58 0.16</pos>			
+				<pos>0.52 0.16</pos>			
 				<origin>0 0</origin>
 				<size>0.36 0.28</size>
 				<delay>0.2</delay>
@@ -213,7 +207,7 @@ Date:			24/08/2020
 			</video>
 
 			<image name="md_marquee">
-				<pos>0.58 0.08</pos>
+				<pos>0.52 0.08</pos>
 				<origin>0 0</origin>
 				<size>0.36 0.08</size>
 				
