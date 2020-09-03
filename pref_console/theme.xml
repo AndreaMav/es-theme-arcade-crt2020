@@ -1,9 +1,10 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.3
+website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
+version:		2.4
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			2/09/2020
+Date:			3/09/2020
+license:		creative commons CC-BY-NC-SA
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -91,6 +92,7 @@ Date:			2/09/2020
 				<format>(c)%Y</format>
 				<pos>0.5 0.610</pos>
 				<size>0.10 0.03</size>
+				<forceUppercase>1</forceUppercase>
 			</datetime>
 			<text name="md_lbl_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
@@ -98,30 +100,35 @@ Date:			2/09/2020
 				<color>ffffff</color>
 				<pos>0.600 0.610</pos>
 				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
 			</text>	
 			<text name="md_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>00ffd9</color>
 				<pos>0.740 0.610</pos>
 				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
 			</text>
 					
 			<text name="md_lbl_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>ffffff</color>
 				<pos>0.5 0.635</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>
 
 			<text name="md_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>00ffd9</color>
 				<pos>0.610 0.635</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>
 			
 			<text name="md_lbl_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>ffffff</color>
 				<pos>0.5 0.665</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>
 			
 			<datetime name="md_lastplayed">
@@ -129,18 +136,21 @@ Date:			2/09/2020
 				<color>00ffd9</color>
 				<pos>0.680 0.665</pos>
 				<size>0.192 0.049</size>
+				<forceUppercase>1</forceUppercase>
 			</datetime>
 			
 			<text name="md_lbl_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>ffffff</color>
 				<pos>0.5 0.7</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>	
 
 			<text name="md_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>00ffd9</color>
 				<pos>0.680 0.695</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>	
 
 			<text name="md_lbl_rating">
