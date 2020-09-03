@@ -8,6 +8,7 @@ Date:			3/09/2020
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
+
 	
 	<view name="system">
 		<image name="background" extra="true">
@@ -16,20 +17,16 @@ Date:			3/09/2020
 				<path>./_inc/psx1.jpg</path>
 				<tile>false</tile>
 			</image>
-
 		<image name="logo">
-			<path>./_inc/system.svg</path>
-			<color>989595</color>
+			<path>./_inc/system2.svg</path>
 		</image>
-
-				
-        <image name="logo_helper2" extra="true">
+		
+        <image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
 			<origin>0.2 0.5</origin>
 			<pos>0.65 0.58</pos>
 			<size>0.4 0.13</size>
 		</image>
-
 		<carousel name="systemcarousel">
 	        <color>000000</color>
 	        <colorEnd>E8F6FFF6</colorEnd>
@@ -47,26 +44,13 @@ Date:			3/09/2020
 			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 	      </text>
 
-
 	</view>
-
-	
-		<image name="logo_helper" extra="true">
-			<path>./../art/arcand.png</path>
-			<origin>0.2 0.5</origin>
-			<pos>0.6 0.8</pos>
-			<size>0.4 0.20</size>
-			
-		</image>
-
 	
 	<view name="system, basic">
 	
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 		</image>
-
-		
 	</view>
 
 <view name="detailed">
