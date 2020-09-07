@@ -92,4 +92,8 @@ Sinclair Zx Spectrum
 #
 # 3/09/2020 UPDATE
 ## added SUPPORT for users that use emulationstation without images and video
+===============================================
+#
+# 4/09/2020 UPDATE
+## added VIRTUALBOY System
 
