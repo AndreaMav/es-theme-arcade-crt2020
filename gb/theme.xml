@@ -55,25 +55,18 @@ license:		creative commons CC-BY-NC-SA
 		</image>
 	</view>
 
-	<view name="detailed">
+	<view name="detailed, video">
 
-			<image name="md_image">
-				<pos>0.565 0.115</pos>			
-				<origin>0 0</origin>
-				<size>0.319 0.380</size>
-			</image>
-
-			<image name="md_marquee">
-				<pos>0.040 0.10</pos>
-				<origin>0 0</origin>
-				<size>0.40 0.10</size>
-			</image>
-									
-			
 			<image name="background" extra="true">
 				<pos>0.47 0</pos>
 				<size>0.5 0.95</size>
 				<path>./_inc/gb1.png</path>
+				<tile>false</tile>
+			</image>
+			<image name="logo_helper" extra="true">
+				<pos>0.65 0.80</pos>
+				<size>0.22 0.09</size>
+				<path>./_inc/system.svg</path>
 				<tile>false</tile>
 			</image>
 
@@ -89,11 +82,12 @@ license:		creative commons CC-BY-NC-SA
 				<horizontalMargin>0.00</horizontalMargin>
 				<fontSize>0.045</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<lineSpacing>1.2</lineSpacing>
 			</textlist>
 
 			<image name="bottom2" extra="true">
-				<pos>0.010 0.83</pos>
-				<size>0.330 0.160</size>
+				<pos>0.080 0.84</pos>
+				<size>0.330 0.110</size>
 				<path>./../art/andmavlog.png</path>
 				<tile>false</tile>
 			</image>
@@ -138,54 +132,7 @@ license:		creative commons CC-BY-NC-SA
 			</image>
 									
 			
-			<image name="background" extra="true">
-				<pos>0.47 0</pos>
-				<size>0.5 0.95</size>
-				<path>./_inc/gb1.png</path>
-				<tile>false</tile>
-			</image>
-			<image name="logo_helper" extra="true">
-				<pos>0.65 0.80</pos>
-				<size>0.22 0.09</size>
-				<path>./_inc/system.svg</path>
-				<tile>false</tile>
-			</image>
-
-			<textlist name="gamelist">
-				<selectorColor>001B9D</selectorColor>
-				<selectedColor>ffffff</selectedColor>
-				<primaryColor>ffffff</primaryColor>
-				<secondaryColor>7a6161</secondaryColor>
-				<forceUppercase>1</forceUppercase>
-				<pos>0.030 0.23</pos>
-				<size>0.400 0.600</size>
-				<alignment>left</alignment>
-				<horizontalMargin>0.00</horizontalMargin>
-				<fontSize>0.045</fontSize>
-				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
-			</textlist>
-
-			<image name="bottom2" extra="true">
-				<pos>0.080 0.84</pos>
-				<size>0.330 0.110</size>
-				<path>./../art/andmavlog.png</path>
-				<tile>false</tile>
-			</image>
-
 			
-
-
-		<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </text>
-
-        <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </datetime>
 
 		</view>
 
