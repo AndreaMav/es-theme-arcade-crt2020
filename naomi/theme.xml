@@ -1,12 +1,13 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+version:		2.5
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			24/08/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
@@ -60,6 +61,7 @@ Date:			24/08/2020
 				<pos>0.04 0.0775</pos>
 				<size>0.25 0.14</size>
 				<path>./_inc/sg.jpg</path>
+				<tile>false</tile>
 			</image>
 			<image name="logo">
 				<origin>0 0.5</origin>
@@ -90,13 +92,20 @@ Date:			24/08/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.64</size>
+				<size>0.400 0.6</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
-				<fontSize>0.045</fontSize>
+				<lineSpacing>1.2</lineSpacing>
+				<fontSize>0.043</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
+			<image name="logoD" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.47 0.815</pos>
+	         	<size>0.45 0.13</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
 
 			<image name="md_marquee">
 				<pos>0.48 0.18</pos>
@@ -111,6 +120,7 @@ Date:			24/08/2020
 			</image>
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<format>(c)%Y</format>
 				<pos>0.5 0.825	</pos>
@@ -118,6 +128,7 @@ Date:			24/08/2020
 			</datetime>
 			<text name="md_lbl_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<text>Developer:</text>
 				<color>ffffff</color>
 				<pos>0.600 0.825</pos>
@@ -125,6 +136,7 @@ Date:			24/08/2020
 			</text>	
 			<text name="md_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.740 0.825</pos>
 				<size>0.400 0.03</size>
@@ -132,24 +144,28 @@ Date:			24/08/2020
 					
 			<text name="md_lbl_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.850</pos>
 			</text>
 
 			<text name="md_players">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.610 0.845</pos>
 			</text>
 			
 			<text name="md_lbl_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.875</pos>
 			</text>
 			
 			<datetime name="md_lastplayed">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.680 0.872</pos>
 				<size>0.192 0.049</size>
@@ -157,21 +173,28 @@ Date:			24/08/2020
 			
 			<text name="md_lbl_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>ffffff</color>
 				<pos>0.5 0.900</pos>
 			</text>	
 
 			<text name="md_playcount">
 				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
 				<color>00ffd9</color>
 				<pos>0.680 0.895</pos>
 			</text>	
 
 			<text name="md_lbl_rating">
-                <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
                 <pos>1 1</pos>
+                <color>000000</color>
                 <size>0.001 0.001</size>
+              
             </text>
+            <rating name="md_rating">
+				<filledPath>./../art/invisible.png</filledPath>
+				<unfilledPath>./../art/invisible.png</unfilledPath>
+			</rating>
 
 
 
