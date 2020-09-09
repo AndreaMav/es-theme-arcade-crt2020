@@ -100,4 +100,5 @@ Sinclair Zx Spectrum
 #
 # 9/09/2020 UPDATE
 ## Improved System Help
+## Improved Detailed View - for user that use only Images and no videos
 
