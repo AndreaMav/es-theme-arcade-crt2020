@@ -106,6 +106,12 @@ license:		creative commons CC-BY-NC-SA
                         <pos>1 1</pos>
                         <size>0.001 0.001</size>
                     </datetime>
+              <image name="md_image">
+				<pos>0.565 0.115</pos>			
+				<origin>0 0</origin>
+				<size>0.319 0.380</size>	
+			</image>
+
 
 	</view>
 
