@@ -82,6 +82,7 @@ Date:			09/09/2020
 				<horizontalMargin>0.00</horizontalMargin>
 				<fontSize>0.045</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<lineSpacing>1.2</lineSpacing>
 				<zIndex>41</zIndex>
 			</textlist>
 			
