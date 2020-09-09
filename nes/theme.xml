@@ -40,6 +40,20 @@ Date:			24/08/2020
 	<view name="system">
 				
 		
+		<image name="bottom" extra="true">
+            <path>./../_res/images/white.png</path>
+            <origin>0 0</origin>
+            <pos>0 0.95</pos>
+            <size>1 0.0655</size>
+            <color>062542</color>
+        </image>
+        <helpsystem name="help">
+            <origin>0 0</origin>
+            <pos>0.012 0.95</pos>
+            <textColor>ffffff</textColor>
+            <iconColor>F7850A</iconColor>
+        </helpsystem>
+
 		<image name="background" extra="true">
 				<size>1 0.5</size>
 				<tile>true</tile>
@@ -125,12 +139,7 @@ Date:			24/08/2020
 			<alignment>left</alignment>
 			<size>0.0479166666666667 0.0595555555555556</size>
 		</text>
-
-
-
-		
-
-		
+	
 		<image name="left_window_body" extra="true">
 			<path>./art/window_body.png</path>
 			<size>0.390 0.6518518518518519</size>
@@ -186,9 +195,6 @@ Date:			24/08/2020
 		<image name="bar_1_overlay, bar_2_overlay, bar_3_overlay, bar_4_overlay" extra="true">
 			<color>ffffff80</color>
 		</image>
-
-
-			
 		
 		<image name="left_window_border" extra="true">
 			<path>./art/window_border.png</path>
@@ -541,7 +547,12 @@ Date:			24/08/2020
                         <size>0.001 0.001</size>
                     </datetime>
 
-
+        <image name="md_image">
+			<pos>0.030 0.20</pos>			
+				<origin>0 0</origin>
+				<size>0.33 0.52</size>
+				<zIndex>1000</zIndex>
+		</image>	
 
 
 
@@ -560,9 +571,7 @@ Date:			24/08/2020
 			<pos>2 2</pos>
 		</image>
 		
-		<image name="md_image">
-			<pos>2 2</pos>
-		</image>
+		
 
 		<video name="md_video">
 				<pos>0.030 0.20</pos>			
@@ -575,6 +584,13 @@ Date:			24/08/2020
 			
 		</video>
 
+		<image name="md_image">
+			<pos>0.030 0.20</pos>			
+				<origin>0 0</origin>
+				<size>0.33 0.52</size>
+				<zIndex>1000</zIndex>
+		</image>
+
 		<image name="md_marquee">
 				<pos>0.030 0.20</pos>
 				<origin>0 0</origin>
@@ -585,11 +601,7 @@ Date:			24/08/2020
 			<pos>2 2</pos>
 		</image>
 	
-		<image name="md_image">
-			<maxSize>0.3222222222222222 0.4296296296296296</maxSize>
-			<pos>2 2</pos>
-		</image>	
-
+		
 		<image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
 			<origin>0.2 0.5</origin>
