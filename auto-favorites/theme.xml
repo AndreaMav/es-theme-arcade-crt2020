@@ -7,6 +7,7 @@ Date:			3/0/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
