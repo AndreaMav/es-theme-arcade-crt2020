@@ -186,6 +186,11 @@ Date:			09/09/2020
 				<pos>0.245 0.645</pos>
 				<forceUppercase>1</forceUppercase>
 			</text>	
+			<image name="md_image">
+				<pos>0.477 0.388</pos>
+				<size>0.325 0.280</size>
+				<origin>0.5 0.5</origin>
+			</image>
 
 
 	</view>
