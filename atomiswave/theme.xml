@@ -1,14 +1,13 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+version:		2.5
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	
-
+	<include>./../theme.xml</include>	
 	<view name="system">
 		<image name="background" extra="true">
 				<size>1 0.4</size>
@@ -51,6 +50,19 @@ Date:			24/08/2020
 		</image>
 	</view>
 
+	<view name="video">
+   <helpsystem name="help">
+            <origin>0 0</origin>
+            <pos>1 1</pos>
+    </helpsystem>
+    <image name="bottom" extra="true">
+            <path>./_res/images/white.png</path>
+            <origin>0 0</origin>
+            <pos>1 1</pos>
+            
+    </image>
+</view>
+
 	<view name="detailed">
 		<image name="md_image">
 				<pos>0.22 0.24</pos>			
@@ -60,15 +72,11 @@ Date:			24/08/2020
 	</view>	
 
 	<view name="detailed,video">
-		
-		
 			<image name="md_marquee">
 				<origin>0 0</origin>
 				<pos>0.033 0.86</pos>
 				<size>0.42 0.10</size>
 			</image>
-			
-
 			<image name="background2" extra="true">
 				<origin>0 0</origin>
 				<pos>0.018 0.85</pos>
