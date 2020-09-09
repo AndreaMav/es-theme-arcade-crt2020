@@ -1,13 +1,13 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.3
+version:		2.5
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			2/09/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	
+	<include>./../theme.xml</include>
 	<view name="system">
 		<image name="background" extra="true">
 				<pos>0.2 0</pos>
@@ -100,9 +100,11 @@ Date:			2/09/2020
 				<size>0.400 0.8</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
-				<fontSize>0.045</fontSize>
-				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<lineSpacing>1.1</lineSpacing>
+				<!--<fontSize>0.042</fontSize>-->
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
+				<!--<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>-->
 			</textlist>
 
 			<image name="md_marquee">
@@ -192,13 +194,9 @@ Date:			2/09/2020
 	</view>
 
 
-
-
-
 <feature supported="video">
 
 		<view name="video">
-
 			<video name="md_video">
 				<pos>0.5 0.30</pos>			
 				<origin>0 0</origin>
@@ -214,9 +212,6 @@ Date:			2/09/2020
 				<origin>0 0</origin>
 				<size>0.45 0.10</size>
 			</image>
-
-			
-
 		</view>
 
 	</feature>
