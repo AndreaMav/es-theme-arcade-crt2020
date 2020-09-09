@@ -111,29 +111,41 @@ license:		creative commons CC-BY-NC-SA
             <size>1 1</size>
             <tile>true</tile>
         </image>
-        
-       
-          <!--<image name="bottom-highlight" extra="true">
-            <path>./_res/images/white.png</path>
-            <origin>0 0</origin>
-            <pos>0 0.9345</pos>
-            <size>1 0.005</size>
-        </image>
-      	  <image name="bottom" extra="true">
-            <path>./_res/images/white.png</path>
-            <origin>0 1</origin>
-            <pos>0 1</pos>
-            <size>1 0.0655</size>
-        </image>-->
-
-
-    <!-- System Specific Images -->
 		<image name="logo">
 			<!-- Left Aligned at Top -->
 			<origin>0 0</origin>
 			<pos>0.3 0.02</pos>
 			<maxSize>0.55 0.14</maxSize>
 		</image>
+
+        <text name="
+            md_lbl_description,
+            md_description,
+            md_lbl_developer,
+            md_developer,
+            md_lbl_genre,
+            md_genre,
+            md_lbl_lastplayed,
+            md_lastplayed,
+            md_lbl_playcount,
+            md_playcount,
+            md_lbl_players,
+            md_players,
+            md_lbl_players,
+            md_players,
+            md_lbl_publisher,
+            md_publisher,
+            md_lbl_rating,
+            md_rating,
+            md_lbl_releasedate,
+            md_releasedate
+            ">
+            <pos>1 1</pos>
+            <forceUppercase>1</forceUppercase>
+            <fontPath>./art/piccolo.ttf</fontPath>
+            <fontSize>0.035</fontSize>
+        </text>
+
 
     </view>
 
