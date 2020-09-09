@@ -54,78 +54,9 @@ Date:			2/0/2020
 		</image>
 	</view>
 
-	<view name="detailed">
+	<view name="detailed, video">
 		
-		<image name="md_image">
-				<pos>0.23 0.25</pos>			
-				<origin>0 0</origin>
-				<size>0.30 0.51</size>
-				</image>
-
-			<image name="md_marquee">
-				<pos>0.64 0.06</pos>
-				<origin>0 0</origin>
-				
-				<size>0.33 0.10</size>
-			</image>
-
-			
-			
-			<image name="background" extra="true">
-				<pos>0 0</pos>
-				<size>0.75 0.9</size>
-				<path>./_inc/megadr_bl.png</path>
-				<tile>false</tile>
-			</image>
-
-			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
-				<selectedColor>ffffff</selectedColor>
-				<primaryColor>ffffff</primaryColor>
-				<secondaryColor>7a6161</secondaryColor>
-				<forceUppercase>1</forceUppercase>
-				<pos>0.76 0.2</pos>
-				<size>0.330 0.600</size>
-				<alignment>left</alignment>
-				<horizontalMargin>0.00</horizontalMargin>
-				<fontSize>0.045</fontSize>
-				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
-			</textlist>
-
-			<image name="bottom2" extra="true">
-				<pos>0.60 0.85</pos>
-				<size>0.330 0.160</size>
-				<path>./../art/arcand.png</path>
-				<tile>false</tile>
-			</image>
-	</view>
-
-
-
-
-
-<feature supported="video">
-
-		<view name="video">
-
-			<video name="md_video">
-				<origin>0 0</origin>
-				<pos>0.225 0.21</pos>			
-				<size>0.30 0.45</size>
-				<delay>0.2</delay>
-				<default></default>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-				<zIndex>40</zIndex>
-			</video>
-
-			<image name="md_marquee">
-				<origin>0 0</origin>
-				<pos>0.76 0.06</pos>
-				<size>0.235 0.10</size>
-			</image>
-			
-			<image name="background" extra="true">
+		<image name="background" extra="true">
 				<pos>0 0</pos>
 				<size>0.75 0.78</size>
 				<path>./_inc/megadr_bl.png</path>
@@ -150,8 +81,9 @@ Date:			2/0/2020
 				<size>0.330 0.600</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<fontSize>0.045</fontSize>
+				<fontSize>0.043</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<lineSpacing>1.2</lineSpacing>
 			</textlist>
 
 			<image name="bottom2" extra="true">
@@ -224,6 +156,34 @@ Date:			2/0/2020
 						<fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
 						<fontSize>0.035</fontSize>
 					</text>
+	</view>
+
+
+
+
+
+<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<origin>0 0</origin>
+				<pos>0.225 0.21</pos>			
+				<size>0.30 0.45</size>
+				<delay>0.2</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+				<zIndex>40</zIndex>
+			</video>
+
+			<image name="md_marquee">
+				<origin>0 0</origin>
+				<pos>0.76 0.06</pos>
+				<size>0.235 0.10</size>
+			</image>
+			
+			
 
 		</view>
 
