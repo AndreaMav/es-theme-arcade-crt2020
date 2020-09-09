@@ -109,6 +109,11 @@ license:		creative commons CC-BY-NC-SA
                         <pos>1 1</pos>
                         <size>0.001 0.001</size>
                     </datetime>
+            <image name="md_image">
+				<pos>0.5 0.30</pos>			
+				<origin>0 0</origin>
+				<size>0.4 0.6</size>
+			</image>
 
 	</view>
 
@@ -123,7 +128,6 @@ license:		creative commons CC-BY-NC-SA
 			<video name="md_video">
 				<pos>0.5 0.30</pos>			
 				<origin>0 0</origin>
-				
 				<size>0.4 0.6</size>
 				<delay>0.2</delay>
 				<default></default>
