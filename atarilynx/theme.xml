@@ -1,13 +1,13 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+version:		2.5
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	
+	<include>./../theme.xml</include>	
 	<view name="system">
 		<image name="background" extra="true">
 				<size>1 0.5</size>
@@ -19,8 +19,6 @@ Date:			24/08/2020
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 		</image>
-	
-
 	
 		<image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
@@ -86,15 +84,13 @@ Date:			24/08/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.60 0.5</pos>
-				<size>0.330 0.600</size>
+				<size>0.330 0.42</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
 				<fontSize>0.045</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<lineSpacing>1.3</lineSpacing>
 			</textlist>
-
-			
-
 			<text name="md_description">
                 <color>ffffff</color>
 				<forceUppercase>1</forceUppercase>
