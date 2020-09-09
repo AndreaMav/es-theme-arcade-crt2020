@@ -1,9 +1,9 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.4
+version:		2.5
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			3/0/2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -43,8 +43,6 @@ Date:			3/0/2020
 	        <pos>0 0.6537</pos>
 	        <size>1 0.2325</size>
 	      </carousel>
-
-				 
 		<text name="systemInfo">
 			<color>d0d0d0</color>
 			<pos>0.15 0.5</pos>
@@ -116,17 +114,13 @@ Date:			3/0/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.80</size>
+				<size>0.400 0.79</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
+				<lineSpacing>1.33</lineSpacing>
 				<fontSize>0.045</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
-
-			
-
-			
 			<image name="logoM" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
@@ -141,18 +135,18 @@ Date:			3/0/2020
 				<size>0.45 0.52</size>          
 	            <path>./../art/backlin.png</path>
 	         </image>
-			<image name="logo2" extra="true">
+			<image name="logoD" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
 	            <pos>0.47 0.815</pos>
-	         	<size>0.45 0.15</size>           
+	         	<size>0.45 0.14</size>           
 	            <path>./../art/backlin.png</path>
 	         </image>
-	         <image name="logo3" extra="true">
+	         <image name="logoL" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
 	            <pos>0.01 0.14</pos>
-	         	<size>0.45 0.84</size>           
+	         	<size>0.45 0.83</size>           
 	            <path>./../art/backlin.png</path>
 	         </image>
 
