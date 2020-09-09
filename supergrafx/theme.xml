@@ -1,12 +1,13 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.3
+version:		2.5
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			2/09/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
@@ -94,11 +95,11 @@ Date:			2/09/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.8</size>
+				<size>0.400 0.77</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
-				<fontSize>0.045</fontSize>
+				<lineSpacing>1.2</lineSpacing>
+				<fontSize>0.043</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
 
