@@ -149,6 +149,12 @@ Date:			3/0/2020
 				<filledPath>./../art/invisible.png</filledPath>
 				<unfilledPath>./../art/invisible.png</unfilledPath>
 			</rating>
+
+			<image name="md_image">
+				<pos>0.700 0.670</pos>
+				<size>0.236 0.200</size>
+				<origin>0.5 0.5</origin>		
+			</image>
 	</view>
 
 
@@ -161,7 +167,7 @@ Date:			3/0/2020
 				<pos>0.700 0.670</pos>
 				<size>0.236 0.200</size>
 				<origin>0.5 0.5</origin>			
-				<delay>0.2</delay>
+				<delay>0.6</delay>
 				<default></default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
