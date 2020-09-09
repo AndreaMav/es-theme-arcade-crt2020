@@ -66,6 +66,8 @@ Date:			09/09/2020
 				<path>./_inc/padd.jpg</path>
 				<tile>false</tile>
 		</image>
+
+		
 		
 
 		<textlist name="gamelist">
@@ -136,6 +138,12 @@ Date:			09/09/2020
 				<size>0.192 0.049</size>
 			</datetime>
 
+			<image name="md_image">
+				<pos>0.44 0.465</pos>
+				<size>0.275 0.340</size>
+				<origin>0.5 0.5</origin>
+			</image>
+
 	</view>
 
 
@@ -154,6 +162,7 @@ Date:			09/09/2020
 				<zIndex>40</zIndex>
 			</video>
 
+			
 			<image name="md_marquee">
 				<origin>0 0</origin>
 				<size>0.001 0.001</size>
