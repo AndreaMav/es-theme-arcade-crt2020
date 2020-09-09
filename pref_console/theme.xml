@@ -1,13 +1,13 @@
 <!--
 theme name:		es-arcade-crt2020
-website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
-version:		2.4
+version:		2.5
 author:			AndreaMav
-Date:			3/09/2020
-license:		creative commons CC-BY-NC-SA
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
@@ -56,9 +56,10 @@ license:		creative commons CC-BY-NC-SA
 			</image>
 			<image name="background">
 				<origin>0 0.5</origin>
-				<pos>0.030 0.91</pos>
-				<size>0.9 0.28</size>
+				<pos>0.030 0.89</pos>
+				<size>0.9 0.29</size>
 				<path>./_inc/system_and2.jpg</path>
+				<tile>false</tile>
 			</image>
 			<textlist name="gamelist">
 				<selectorColor>001B9D</selectorColor>
@@ -67,11 +68,11 @@ license:		creative commons CC-BY-NC-SA
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.63</size>
+				<size>0.400 0.57</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
-				<fontSize>0.045</fontSize>
+				<lineSpacing>1.1</lineSpacing>
+				<fontSize>0.042</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
 
