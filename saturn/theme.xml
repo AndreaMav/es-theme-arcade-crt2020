@@ -1,12 +1,13 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+version:		2.5
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
@@ -53,7 +54,7 @@ Date:			24/08/2020
 
 			<image name="logo2" extra="true">
 				<origin>0 0</origin>
-				<pos>0.05 0.84</pos>
+				<pos>0.05 0.83</pos>
 				<size>0.40 0.14</size>
 				<path>./_inc/saturn.jpg</path>
 			</image>
@@ -62,6 +63,7 @@ Date:			24/08/2020
 				<pos>0.5 0.0775</pos>
 				<size>0.40 0.14</size>
 				<path>./../art/arcand2.png</path>
+				<tile>false</tile>
 			</image>
 			<textlist name="gamelist">
 				<selectorColor>001B9D</selectorColor>
@@ -73,8 +75,8 @@ Date:			24/08/2020
 				<size>0.400 0.7</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
-				<fontSize>0.045</fontSize>
+				<lineSpacing>1.1</lineSpacing>
+				<fontSize>0.043</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
 
@@ -90,14 +92,14 @@ Date:			24/08/2020
 				<size>0.4 0.5</size>
 			</image>
 			<datetime name="md_releasedate">
-				<fontPath>./../art/piccolo.ttf</fontPath>
+				
 				<color>ffffff</color>
 				<format>(c)%Y</format>
 				<pos>0.5 0.825	</pos>
 				<size>0.10 0.03</size>
 			</datetime>
 			<text name="md_lbl_publisher">
-				<fontPath>./../art/piccolo.ttf</fontPath>
+				
 				<text>Developer:</text>
 				<color>ffffff</color>
 				<pos>0.600 0.825</pos>
