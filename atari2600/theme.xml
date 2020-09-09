@@ -1,19 +1,14 @@
 <!--
 theme name:		es-arcade-crt2020
-website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
-version:		2.4
+version:		2.5
 author:			AndreaMav
-Date:			3/09/2020
-license:		creative commons CC-BY-NC-SA
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
-    
-
 	<view name="system">
-
-		
 		<image name="logo">
 				<path>./art/system.svg</path>
         </image>
@@ -28,8 +23,6 @@ license:		creative commons CC-BY-NC-SA
 		<image name="logo">
 			<path>./art/system.svg</path>
         </image>
-
-        
 		<image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
 			<origin>0.2 0.5</origin>
@@ -88,6 +81,7 @@ license:		creative commons CC-BY-NC-SA
 			<horizontalMargin>0.00</horizontalMargin>
 			<fontSize>0.035</fontSize>
 			<scrollSound>./../art/scroll.wav</scrollSound>
+			<lineSpacing>1.25</lineSpacing>
 		</textlist>
 
 		<text name="rating_label" extra="true">
