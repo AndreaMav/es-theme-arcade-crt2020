@@ -1,12 +1,14 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
+theme name:		es-arcade-crt2020
+version:		2.5
+Date:			09/09/2020
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt
 -->
 <theme>
-	<formatVersion>4</formatVersion>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+
 	
 
 	<view name="system">
@@ -47,13 +49,13 @@ Date:			24/08/2020
 	</view>
 
 	
-	<view name="system, basic, detailed">
+	<view name="system, basic">
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 		</image>
 	</view>
 
-	<view name="basic, detailed, video">
+	<view name="detailed, video">
 		<text name="
 			md_lbl_description,
 			md_description,
@@ -89,8 +91,6 @@ Date:			24/08/2020
 				<path>./_inc/backlin.png</path>
 				<tile>false</tile>
 			</image>
-
-			
 
 			<image name="logo2" extra="true">
 				<path>./_inc/system.svg</path>
@@ -171,14 +171,15 @@ Date:			24/08/2020
 				<unfilledPath>./../art/invisible.png</unfilledPath>
 			</rating>
 
-		<image name="md_images">
-				<pos>0.58 0.16</pos>			
+			<image name="md_images">
 				<origin>0 0</origin>
+				<pos>0.52 0.16</pos>			
+				
 				<size>0.36 0.28</size>
 			</image>
 
 			<image name="md_marquee">
-				<pos>0.58 0.08</pos>
+				<pos>0.52 0.08</pos>
 				<origin>0 0</origin>
 				<size>0.36 0.08</size>
 			</image>
@@ -193,8 +194,6 @@ Date:			24/08/2020
 
 		<view name="video">
 
-
-
 			<video name="md_video">
 				<pos>0.52 0.16</pos>			
 				<origin>0 0</origin>
@@ -206,12 +205,7 @@ Date:			24/08/2020
 				
 			</video>
 
-			<image name="md_marquee">
-				<pos>0.52 0.08</pos>
-				<origin>0 0</origin>
-				<size>0.36 0.08</size>
-				
-			</image>
+			
 		</view>
 
 	</feature>
