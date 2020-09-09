@@ -95,16 +95,14 @@ Date:			09/09/2020
 				<selectedColor>ffffff</selectedColor>
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
-				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.8</size>
+				<size>0.400 0.77</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.1</lineSpacing>
-				<!--<fontSize>0.042</fontSize>-->
-				<fontPath>./../art/piccolo.ttf</fontPath>
 				<forceUppercase>1</forceUppercase>
-				<!--<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>-->
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<lineSpacing>1.1</lineSpacing>
+				<fontSize>0.037</fontSize>
 			</textlist>
 
 			<image name="md_marquee">
