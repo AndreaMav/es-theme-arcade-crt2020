@@ -47,6 +47,12 @@ web:			https://github.com/AndreaMav/es-theme-arcade-crt
       </view>
 	<view name="detailed, video">
 
+		<image name="md_image">
+				<pos>0.540 0.531</pos>
+				<size>0.416 0.449</size>
+				<origin>0.1 0.1</origin>	
+			</image>
+
 		<image name="logo">
 			<path>./art/system.svg</path>
 			<pos>0.206 0.174</pos>
@@ -87,10 +93,17 @@ web:			https://github.com/AndreaMav/es-theme-arcade-crt
 				<size>0.416 0.449</size>
 				<origin>0.1 0.1</origin>			
 				<delay>1</delay>
-				<default></default>
+				<default>./../_inc/videos/static.mp4</default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
 			</video>
+
+			<image name="md_image">
+				<pos>0.540 0.531</pos>
+				<size>0.416 0.449</size>
+				<origin>0.1 0.1</origin>	
+			</image>
+
 
 			
 		</view>
