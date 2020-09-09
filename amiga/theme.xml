@@ -45,7 +45,38 @@ web:			https://github.com/AndreaMav/es-theme-arcade-crt
 			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 	      </text>
       </view>
-<!--   </feature>-->
+	<view name="detailed, video">
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<pos>0.206 0.174</pos>
+			<maxSize>0.460 0.126</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<image name="background" extra="true">
+				<size>0.95 0.95</size>
+				<tile>true</tile>
+				<path>./art/wb_bg2.png</path>
+				<tile>false</tile>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>ffffff</selectorColor>
+			<selectedColor>f46b42</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>7a6161</secondaryColor>
+			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.045</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.028 0.375</pos>
+			<size>0.400 0.55</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<scrollSound>./../art/scroll.wav</scrollSound>
+			<lineSpacing>1.33</lineSpacing>
+		</textlist>
+	</view>
 
 	<feature supported="video">
 
@@ -65,83 +96,5 @@ web:			https://github.com/AndreaMav/es-theme-arcade-crt
 		</view>
 
 	</feature>
-
-	<view name="video">
-
-		<image name="logo">
-			<path>./art/system.svg</path>
-			<pos>0.206 0.174</pos>
-			<maxSize>0.460 0.126</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-
-		<image name="background" extra="true">
-				<size>0.95 0.95</size>
-				<tile>true</tile>
-				<path>./art/wb_bg2.png</path>
-				<tile>false</tile>
-		</image>
-
-		<textlist name="gamelist">
-			<selectorColor>ffffff</selectorColor>
-			<selectedColor>f46b42</selectedColor>
-			<primaryColor>ffffff</primaryColor>
-			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.045</fontSize>
-			<forceUppercase>1</forceUppercase>
-			<pos>0.020 0.375</pos>
-			<size>0.400 0.530</size>
-			<alignment>left</alignment>
-			<horizontalMargin>0.00</horizontalMargin>
-			<scrollSound>./../art/scroll.wav</scrollSound>
-		</textlist>
-
-		
-
-
-
-	</view>
-
-	
-	<view name="detailed">
-
-		<image name="logo">
-			<path>./art/system.svg</path>
-			<pos>0.206 0.174</pos>
-			<maxSize>0.460 0.126</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-
-		<image name="background" extra="true">
-				<size>0.95 0.95</size>
-				<tile>true</tile>
-				<path>./art/wb_bg2.png</path>
-				<tile>false</tile>
-		</image>
-
-		<textlist name="gamelist">
-			<selectorColor>ffffff</selectorColor>
-			<selectedColor>f46b42</selectedColor>
-			<primaryColor>ffffff</primaryColor>
-			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.045</fontSize>
-			<forceUppercase>1</forceUppercase>
-			<pos>0.020 0.375</pos>
-			<size>0.400 0.530</size>
-			<alignment>left</alignment>
-			<horizontalMargin>0.00</horizontalMargin>
-			<scrollSound>./../art/scroll.wav</scrollSound>
-		</textlist>
-
-			<image name="md_image">
-				<pos>0.540 0.531</pos>
-				<size>0.416 0.449</size>
-				<origin>0.1 0.1</origin>			
-			</image>
-
-	</view>
-
 
 </theme>
