@@ -124,6 +124,11 @@ Date:			09/09/2020
 				<filledPath>./../art/invisible.png</filledPath>
 				<unfilledPath>./../art/invisible.png</unfilledPath>
 			</rating>
+			<image name="md_image">
+				<pos>0.345 0.080</pos>			
+				<origin>0 0</origin>
+				<size>0.310 0.21</size>	
+			</image>
 	</view>
 
 <feature supported="video">
@@ -133,7 +138,6 @@ Date:			09/09/2020
 			<video name="md_video">
 				<pos>0.345 0.080</pos>			
 				<origin>0 0</origin>
-				
 				<size>0.310 0.21</size>
 				<delay>0.2</delay>
 				<default></default>
