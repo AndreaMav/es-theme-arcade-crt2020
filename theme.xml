@@ -10,14 +10,7 @@ license:		creative commons CC-BY-NC-SA
 <theme>
     <formatVersion>4</formatVersion>
 	<view name="system">
-        <!--<image name="system-background" extra="true">
-            <path>./_res/images/background.png</path>
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
-            <tile>true</tile>
-        </image>-->
-
+        
         <image name="bottom" extra="true">
             <path>./_res/images/white.png</path>
             <origin>0 0</origin>
@@ -25,18 +18,7 @@ license:		creative commons CC-BY-NC-SA
             <size>1 0.0655</size>
             <color>062542</color>
         </image>
-        <!--RIGA IN BASSO SU HELP
-		<image name="bottom-highlight" extra="true">
-			<path>./_res/images/white.png</path>
-			<origin>0 0</origin>
-			<pos>0 0.9345</pos>
-			<size>1 0.005</size>
-            <color>062542</color>
-		</image>-->
-
         <helpsystem name="help">
-            <!--<fontSize>0.033</fontSize>
-            <fontPath>./art/Cabin-Bold.ttf</fontPath>-->
             <origin>0 0</origin>
             <pos>0.012 0.95</pos>
             <textColor>ffffff</textColor>
