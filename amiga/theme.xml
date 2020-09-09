@@ -1,13 +1,13 @@
 <!--
-theme name:		es-arcade-crt2
-version:		2.3
-Date:			24/08/2020
+theme name:		es-arcade-crt2020
+version:		2.5
+Date:			09/09/2020
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt
 -->
 <theme>
-    <formatVersion>3</formatVersion>
-    
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
 
 	<view name="system">
 
@@ -55,7 +55,7 @@ web:			https://github.com/AndreaMav/es-theme-arcade-crt
 				<pos>0.540 0.531</pos>
 				<size>0.416 0.449</size>
 				<origin>0.1 0.1</origin>			
-				<delay>0.2</delay>
+				<delay>1</delay>
 				<default></default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
