@@ -156,6 +156,11 @@ Date:			2/0/2020
 						<fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
 						<fontSize>0.035</fontSize>
 					</text>
+			<image name="md_image">
+				<origin>0 0</origin>
+				<pos>0.225 0.21</pos>			
+				<size>0.30 0.45</size>	
+			</image>
 	</view>
 
 
