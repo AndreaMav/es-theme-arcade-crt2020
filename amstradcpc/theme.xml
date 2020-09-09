@@ -1,12 +1,13 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.4
+version:		2.5
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt
-Date:			2/09/2020
+Date:			09/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
 	
 	<view name="system">
 		<image name="background" extra="true">
@@ -32,9 +33,6 @@ Date:			2/09/2020
 	        <pos>0 0.6537</pos>
 	        <size>1 0.2325</size>
 	      </carousel>
-
-		
-		 
 		<text name="systemInfo">
 			<color>d0d0d0</color>
 			<pos>0.15 0.5</pos>
@@ -43,12 +41,7 @@ Date:			2/09/2020
 	        <fontSize>0.05</fontSize>
 			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 	      </text>
-	   
-
 	</view>
-
-		
-	
 	<view name="basic, detailed, video">
 			<image name="logo">
 				<origin>0 0.5</origin>
