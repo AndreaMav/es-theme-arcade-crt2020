@@ -122,6 +122,13 @@ Date:			09/09/2020
 				<unfilledPath>./../art/invisible.png</unfilledPath>
 			</rating>
 
+			<image name="md_image">
+				<pos>0.056 0.485</pos>			
+				<origin>0 0</origin>
+				<size>0.45 0.42</size>
+				<zIndex>41</zIndex>	
+			</image>
+
 	</view>
 
 
