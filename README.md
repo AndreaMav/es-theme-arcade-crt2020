@@ -105,4 +105,4 @@ Sinclair Zx Spectrum
 #
 # 10/09/2020 UPDATE
 ## Fix little graphic parts in X68000, Supergrafx, Sg-1000
-
+## Minor graghic upgrade in Psx Theme
