@@ -101,4 +101,8 @@ Sinclair Zx Spectrum
 # 9/09/2020 UPDATE
 ## Improved System Help
 ## Improved Detailed View - for user that use only Images and no videos
+===============================================
+#
+# 10/09/2020 UPDATE
+## Fix little graphic parts in X68000, Supergrafx, Sg-1000
 
