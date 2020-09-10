@@ -1,10 +1,11 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.4
+version:		2.5
+Date:			10/09/2020
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			3/09/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt
 -->
+
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
@@ -53,86 +54,8 @@ Date:			3/09/2020
 		</image>
 	</view>
 
-<view name="detailed">
-	
+<view name="detailed, video">
 	<image name="background" >
-				<tile>false</tile>
-				<pos>0.37 0.05</pos>
-				<origin>0 0</origin>
-				<size>0.6 0.9</size>
-				<path>./../_inc/images/bg_color_grey.png</path>
-			</image>
-			
-			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
-				<selectedColor>ffffff</selectedColor>
-				<primaryColor>7373ff</primaryColor>
-				<secondaryColor>7a6161</secondaryColor>
-				<fontPath>./../art/C64.ttf</fontPath>
-				<forceUppercase>1</forceUppercase>
-				<pos>0.032 0.130</pos>
-				<size>0.330 0.650</size>
-				<alignment>left</alignment>
-				<horizontalMargin>0.00</horizontalMargin>
-				<fontSize>0.03</fontSize>
-				<scrollSound>./../art/scroll.wav</scrollSound>
-			</textlist>
-
-			<image name="md_image">
-				<pos>0.50 0.28</pos>			
-				<origin>0 0</origin>
-				<size>0.48 0.43</size>
-			</image>
-
-			<image name="md_marquee">
-				<pos>0.50 0.08</pos>
-				<origin>0 0</origin>
-				
-				<size>0.48 0.14</size>
-			</image>
-
-			<image name="bottom" extra="true">
-				<pos>0.375 0.06</pos>
-				<size>0.6 0.88</size>
-				
-				<path>./_inc/psx_bc_lw2.jpg</path>
-				<tile>false</tile>
-				
-			</image>
-
-			
-			<image name="bottom2" extra="true">
-				<pos>0.032 0.780</pos>
-				<size>0.330 0.175</size>
-				<path>./../art/arcand.png</path>
-				<tile>false</tile>
-			</image>
-
-			<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                        <fontSize>0.035</fontSize>
-                    </text>
-
-       		 <text name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
-						<pos>1 1</pos>
-						<size>0.192 0.030</size>
-						<color>cccccc</color>
-						<forceUppercase>1</forceUppercase>
-						<fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-						<fontSize>0.035</fontSize>
-					</text>
-	</view>
-
-
-
-
-<feature supported="video">
-
-		<view name="video">
-
-			<image name="background" >
 				<tile>false</tile>
 				<pos>0.37 0.05</pos>
 				<origin>0 0</origin>
@@ -146,6 +69,12 @@ Date:			3/09/2020
 				<size>0.33 0.10</size>
 				<path>./_inc/psx1.jpg</path>
 			</image>
+			<image name="logo2" extra="true">
+				<origin>0 0</origin>
+				<pos>0.38 0.09</pos>
+				<size>0.10 0.13</size>
+				<path>./_inc/psx.png</path>
+			</image>
 			
 			<textlist name="gamelist">
 				<selectorColor>1c1c1c</selectorColor>
@@ -161,25 +90,6 @@ Date:			3/09/2020
 				<fontSize>0.03</fontSize>
 				<scrollSound>./../art/scroll.wav</scrollSound>
 			</textlist>
-
-			<video name="md_video">
-				<pos>0.50 0.28</pos>			
-				<origin>0 0</origin>
-				
-				<size>0.48 0.43</size>
-				<delay>0.2</delay>
-				<default></default>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-			</video>
-
-			<image name="md_marquee">
-				<pos>0.50 0.08</pos>
-				<origin>0 0</origin>
-				
-				<size>0.48 0.14</size>
-			</image>
-
 			<image name="bottom" extra="true">
 				<pos>0.375 0.06</pos>
 				<size>0.6 0.88</size>
@@ -211,8 +121,38 @@ Date:			3/09/2020
 						<fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
 						<fontSize>0.035</fontSize>
 					</text>
+	
+	
+	</view>
 
-       		
+
+
+
+<feature supported="video">
+
+		<view name="video">
+
+			
+
+			<video name="md_video">
+				<pos>0.50 0.28</pos>			
+				<origin>0 0</origin>
+				
+				<size>0.48 0.43</size>
+				<delay>0.2</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+			<image name="md_marquee">
+				<pos>0.50 0.08</pos>
+				<origin>0 0</origin>
+				
+				<size>0.48 0.14</size>
+			</image>
+
+			
 		</view>
 
 	</feature>
