@@ -3,7 +3,7 @@ theme name:		es-arcade-crt2020
 version:		2.5
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			09/09/2020
+Date:			10/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -86,6 +86,7 @@ Date:			09/09/2020
 				<pos>0.5 0.0775</pos>
 				<size>0.40 0.14</size>
 				<path>./../art/arcand2.png</path>
+				<tile>false</tile>
 			</image>
 			<textlist name="gamelist">
 				<selectorColor>001B9D</selectorColor>
