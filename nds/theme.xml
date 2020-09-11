@@ -3,7 +3,7 @@ theme name:		es-arcade-crt2020
 version:		2.5
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			09/09/2020
+Date:			10/09/2020
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -59,7 +59,7 @@ Date:			09/09/2020
 	<view name="detailed, video">
 
 		<image name="background" extra="true">
-				<pos>0.08 0.25</pos>
+				<pos>0.02 0.25</pos>
 				<size>0.60 0.60</size>
 				<path>./_inc/ndsbl.png</path>
 				<tile>false</tile>
@@ -72,7 +72,7 @@ Date:			09/09/2020
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
-				<pos>0.69 0.2</pos>
+				<pos>0.61 0.2</pos>
 				<size>0.330 0.7</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
@@ -160,7 +160,7 @@ Date:			09/09/2020
 				<unfilledPath>./../art/invisible.png</unfilledPath>
 			</rating>
 			<image name="md_image">
-				<pos>0.25 0.299</pos>			
+				<pos>0.18 0.299</pos>			
 				<origin>0 0</origin>
 				<zIndex>43</zIndex>
 				<size>0.285 0.505</size>	
@@ -175,14 +175,14 @@ Date:			09/09/2020
 		<view name="video">
 
 			<video name="md_video">
-				<pos>0.25 0.299</pos>			
+				<pos>0.18 0.299</pos>			
 				<origin>0 0</origin>
-				<zIndex>43</zIndex>
-				<size>0.285 0.505</size>
+				<size>0.296 0.505</size>
 				<delay>0.2</delay>
 				<default></default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
+				<zIndex>44</zIndex>
 			</video>
 
 			<image name="md_marquee">
