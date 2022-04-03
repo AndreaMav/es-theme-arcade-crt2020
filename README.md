@@ -75,10 +75,17 @@ Sega Model 3
 Sharp Sg-1000
 SuperGrafx
 SuperModel
+Wondwerswan
+WondwerswanColor
 Vectrex
 X68000
 Sinclair Zx Spectrum
 
+===============================================
+#
+# 3/04/2022 UPDATE
+## added two new System
+## Wondwerswan and WondwerswanColor
 ===============================================
 #
 # 31/08/2020 UPDATE
