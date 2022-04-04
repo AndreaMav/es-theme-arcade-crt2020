@@ -1,9 +1,9 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.4
+version:		2.5
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			7/09/2020
+Date:			4/04/2022
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -78,10 +78,12 @@ Date:			7/09/2020
 
 			<image name="logo_helper"  extra="true">
 				<origin>0 0.5</origin>
-				<pos>0.30 0.0775</pos>
-				<size>0.38 0.14</size>
+				<pos>0.50 0.0775</pos>
+				<size>0.38 0.13</size>
 				<path>./../art/arcand2.png</path>
 			</image>
+
+
 			<image name="background">
 				<origin>0 0.5</origin>
 				<pos>0.04 0.0775</pos>
@@ -104,7 +106,7 @@ Date:			7/09/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.80</size>
+				<size>0.400 0.75</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
 				<lineSpacing>1.35</lineSpacing>
@@ -112,7 +114,13 @@ Date:			7/09/2020
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
 
-			
+			<image name="logoC"  extra="true">
+				<tile>false</tile>
+				<origin>0 0</origin>
+				<pos>0.04 0.02</pos>
+				<size>0.38 0.14</size>
+				<path>./_inc/system_and.jpg</path>
+			</image>
 
 			
 			<image name="logoM" extra="true">
@@ -132,17 +140,21 @@ Date:			7/09/2020
 			<image name="logo2" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
-	            <pos>0.47 0.815</pos>
+	            <pos>0.47 0.80</pos>
 	         	<size>0.45 0.15</size>           
 	            <path>./../art/backlin.png</path>
 	         </image>
-	         <image name="logo3" extra="true">
+	        
+
+			<image name="logo3" extra="true">
 	            <tile>false</tile>
 	            <origin>0 0</origin>
 	            <pos>0.01 0.14</pos>
-	         	<size>0.45 0.84</size>           
+	         	<size>0.45 0.8</size>           
 	            <path>./../art/backlin.png</path>
 	         </image>
+
+
 
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
