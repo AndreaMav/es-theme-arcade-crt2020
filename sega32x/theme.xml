@@ -1,9 +1,9 @@
 <!--
 theme name:		es-arcade-crt2020
 website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
-version:		2.4
+version:		2.5
 author:			AndreaMav
-Date:			3/09/2020
+Date:			4/04/2022
 license:		creative commons CC-BY-NC-SA
 -->
 <theme>
@@ -87,7 +87,7 @@ license:		creative commons CC-BY-NC-SA
 			</image>
 
 			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
+				<selectorColor>001B9D</selectorColor>
 				<selectedColor>ffffff</selectedColor>
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
@@ -170,7 +170,7 @@ license:		creative commons CC-BY-NC-SA
 			</image>
 
 			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
+				<selectorColor>001B9D</selectorColor>
 				<selectedColor>ffffff</selectedColor>
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
