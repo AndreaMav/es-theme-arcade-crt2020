@@ -1,13 +1,13 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.3
+version:		2.5
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			24/08/2020
+web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
+Date:			04/04/2022
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	
+	<include>./../theme.xml</include>
 	<view name="system">
 		<image name="background" extra="true">
 				<size>1 0.5</size>
@@ -19,7 +19,7 @@ Date:			24/08/2020
 			<path>./_inc/system.svg</path>
 		</image>
 		
-        <image name="logo_helper" extra="true">
+         <image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
 			<origin>0.2 0.5</origin>
 			<pos>0.65 0.58</pos>
@@ -43,11 +43,39 @@ Date:			24/08/2020
 			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 	      </text>
 
+
 	</view>
 
 		
 	
 	<view name="basic, detailed, video">
+		<text name="
+			md_lbl_description,
+			md_description,
+			md_lbl_developer,
+			md_developer,
+			md_lbl_genre,
+			md_genre,
+			md_lbl_lastplayed,
+			md_lastplayed,
+			md_lbl_playcount,
+			md_playcount,
+			md_lbl_players,
+			md_players,
+			md_lbl_players,
+			md_players,
+			md_lbl_publisher,
+			md_publisher,
+			md_lbl_rating,
+			md_rating,
+			md_lbl_releasedate,
+			md_releasedate
+			">
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+		</text>
 			<image name="logo">
 				<origin>0 0</origin>
 				<pos>0.04 0.020</pos>
@@ -66,14 +94,14 @@ Date:			24/08/2020
 				<selectedColor>ffffff</selectedColor>
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
-				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.8</size>
+				<size>0.400 0.77</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
-				<fontSize>0.045</fontSize>
-				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<forceUppercase>1</forceUppercase>
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<lineSpacing>1.1</lineSpacing>
+				<fontSize>0.037</fontSize>
 			</textlist>
 
 			<image name="md_marquee">
@@ -151,6 +179,7 @@ Date:			24/08/2020
                 <size>0.001 0.001</size>
               
             </text>
+
             <rating name="md_rating">
 				<filledPath>./../art/invisible.png</filledPath>
 				<unfilledPath>./../art/invisible.png</unfilledPath>
@@ -158,16 +187,13 @@ Date:			24/08/2020
 
 
 
+
 	</view>
-
-
-
 
 
 <feature supported="video">
 
 		<view name="video">
-
 			<video name="md_video">
 				<pos>0.5 0.30</pos>			
 				<origin>0 0</origin>
@@ -183,9 +209,6 @@ Date:			24/08/2020
 				<origin>0 0</origin>
 				<size>0.45 0.10</size>
 			</image>
-
-			
-
 		</view>
 
 	</feature>
