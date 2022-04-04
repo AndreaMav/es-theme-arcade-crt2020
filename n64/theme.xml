@@ -110,6 +110,23 @@ Date:			04/04/2022
 				<size>0.45 0.10</size>
 			</image>
 
+			<image name="logo3" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.01 0.14</pos>
+	         	<size>0.45 0.82</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
+
+	         <image name="logo2" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.47 0.80</pos>
+	         	<size>0.45 0.15</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
+	        
+
 			<image name="md_image">
 				<pos>0.5 0.30</pos>			
 				<origin>0 0</origin>
