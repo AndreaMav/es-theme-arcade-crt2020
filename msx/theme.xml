@@ -1,7 +1,7 @@
 <!--
 theme name:		es-arcade-crt2020
 version:		2.5
-Date:			09/09/2020
+Date:			04/04/2022
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt
 -->
@@ -108,7 +108,7 @@ web:			https://github.com/AndreaMav/es-theme-arcade-crt
 			</image>
 
 			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
+				<selectorColor>001B9D</selectorColor>
 				<selectedColor>ffffff</selectedColor>
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
