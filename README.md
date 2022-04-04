@@ -85,7 +85,7 @@ Sinclair Zx Spectrum
 # 4/04/2022 UPDATE
 ## FIX - Nintendo DS - Vectrex - Sega32 - Msx - Megadrive - Intellivision - Gamegear 
 Internal Theme - Gamelist color and size
-## Nintendo 64 and Gameboy Color
+## Nintendo 64 and Gameboy Color and Virtual Boy
 Internal Theme - Improvment
 ===============================================
 #
