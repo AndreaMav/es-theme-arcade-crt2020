@@ -80,7 +80,10 @@ WondwerswanColor
 Vectrex
 X68000
 Sinclair Zx Spectrum
-
+===============================================
+#
+# 4/04/2022 UPDATE
+## FIX - Nintendo DS - Internal Theme - Gamelist color and size
 ===============================================
 #
 # 3/04/2022 UPDATE
