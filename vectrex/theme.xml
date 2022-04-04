@@ -149,8 +149,8 @@ Date:			4/04/2022
 			</textlist>
 
 			<image name="bottom2" extra="true">
-				<pos>0.60 0.85</pos>
-				<size>0.330 0.160</size>
+				<pos>0.055 0.77</pos>
+				<size>0.330 0.120</size>
 				<path>./../art/arcand.png</path>
 				<tile>false</tile>
 			</image>
