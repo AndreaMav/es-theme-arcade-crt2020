@@ -1,18 +1,20 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.3
+website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
+version:		2.4
 author:			AndreaMav
-web:			https://github.com/AndreaMav/es-theme-arcade-crt2
-Date:			2/09/2020
+Date:			4/04/2022
+license:		creative commons CC-BY-NC-SA
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	
+	 <include>./../theme.xml</include>
 
+	
 	<view name="system">
 		<image name="background" extra="true">
-				<size>1 0.5</size>
-				<tile>true</tile>
+				<size>0.6 0.5</size>
+				<pos>0.2 0</pos>
 				<path>./_inc/system_and.jpg</path>
 				<tile>false</tile>
 			</image>
@@ -44,7 +46,6 @@ Date:			2/09/2020
 	        <fontSize>0.05</fontSize>
 			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 	      </text>
-
 	</view>
 
 	
@@ -54,72 +55,71 @@ Date:			2/09/2020
 		</image>
 	</view>
 
-	<view name="detailed">
+	<view name="detailed, video">
 
-			<image name="md_image">
-				<pos>0.520 0.088</pos>			
-				<origin>0 0</origin>
-				<size>0.195 0.38</size>
-			</image>
-
-			<image name="md_marquee">
-				<pos>0.76 0.06</pos>
-				<origin>0 0</origin>
-				
-				<size>0.22 0.10</size>
-			</image>
-
-			<image name="md_image">
-				<pos>0.54 0.575</pos>
-				<origin>0 0</origin>
-				<size>0.145 0.195</size>
-			</image>
-
-			
-			
 			<image name="background" extra="true">
-				<pos>0 0</pos>
-				<size>0.75 0.85</size>
+				<pos>0.47 0</pos>
+				<size>0.5 0.95</size>
 				<path>./_inc/gbcolor_bl.png</path>
+				<tile>false</tile>
+			</image>
+			<image name="logo_helper" extra="true">
+				<pos>0.02 0.05</pos>
+				<size>0.22 0.09</size>
+				<path>./_inc/system.svg</path>
 				<tile>false</tile>
 			</image>
 
 			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
+				<selectorColor>001B9D</selectorColor>
 				<selectedColor>ffffff</selectedColor>
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
-				<pos>0.76 0.2</pos>
-				<size>0.330 0.600</size>
+				<pos>0.030 0.23</pos>
+				<size>0.400 0.600</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
 				<fontSize>0.045</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+				<lineSpacing>1.2</lineSpacing>
 			</textlist>
 
 			<image name="bottom2" extra="true">
-				<pos>0.60 0.83</pos>
-				<size>0.330 0.160</size>
-				<path>./../art/arcand.png</path>
+				<pos>0.080 0.84</pos>
+				<size>0.330 0.110</size>
+				<path>./../art/andmavlog.png</path>
 				<tile>false</tile>
 			</image>
 
-			<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
+			
+
+
+		<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
                         <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
                         <pos>1 1</pos>
                         <size>0.001 0.001</size>
                     </text>
 
-       		 <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
+        <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
                         <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
                         <pos>1 1</pos>
                         <size>0.001 0.001</size>
                     </datetime>
+              <image name="md_image">
+				<pos>0.62 0.120</pos>			
+				<origin>0 0</origin>
+				<size>0.319 0.390</size>	
+			</image>
+
+			<image name="md_marquee">
+				<pos>0.18 0.15</pos>
+				<origin>0 0</origin>
+				<size>0.25 0.10</size>
+			</image>
+
 
 	</view>
-
-
 
 
 
@@ -128,76 +128,19 @@ Date:			2/09/2020
 		<view name="video">
 
 			<video name="md_video">
-				<pos>0.520 0.088</pos>			
+				<pos>0.62 0.120</pos>			
 				<origin>0 0</origin>
-				<size>0.195 0.38</size>
+				<size>0.319 0.390</size>
 				<delay>0.2</delay>
 				<default></default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
 			</video>
 
-			<image name="md_marquee">
-				<pos>0.76 0.06</pos>
-				<origin>0 0</origin>
-				
-				<size>0.22 0.10</size>
-			</image>
-
-			<image name="md_image">
-				<pos>0.54 0.575</pos>
-				<origin>0 0</origin>
-				<size>0.145 0.195</size>
-			</image>
-
+			
+									
 			
 			
-			<image name="background" extra="true">
-				<pos>0 0</pos>
-				<size>0.75 0.85</size>
-				<path>./_inc/gbcolor_bl.png</path>
-				<tile>false</tile>
-			</image>
-
-			<image name="logo_helper" extra="true">
-				<pos>0.11 0.86</pos>
-				<size>0.48 0.09</size>
-				<path>./_inc/system.svg</path>
-				<tile>false</tile>
-			</image>
-
-			<textlist name="gamelist">
-				<selectorColor>1c1c1c</selectorColor>
-				<selectedColor>ffffff</selectedColor>
-				<primaryColor>ffffff</primaryColor>
-				<secondaryColor>7a6161</secondaryColor>
-				<forceUppercase>1</forceUppercase>
-				<pos>0.76 0.2</pos>
-				<size>0.330 0.600</size>
-				<alignment>left</alignment>
-				<horizontalMargin>0.00</horizontalMargin>
-				<fontSize>0.045</fontSize>
-				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
-			</textlist>
-
-			<image name="bottom2" extra="true">
-				<pos>0.60 0.83</pos>
-				<size>0.330 0.160</size>
-				<path>./../art/arcand.png</path>
-				<tile>false</tile>
-			</image>
-
-			<text name="md_lbl_rating, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </text>
-
-       		 <datetime name="md_releasedate, md_lbl_lastplayed, md_lbl_releasedate">
-                        <fontPath>./../_res/fonts/AdobeBlank.ttf</fontPath>
-                        <pos>1 1</pos>
-                        <size>0.001 0.001</size>
-                    </datetime>
 
 		</view>
 
