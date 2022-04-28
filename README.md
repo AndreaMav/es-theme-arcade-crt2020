@@ -54,6 +54,7 @@ MasterSystem
 Ms Dos
 Msx
 Naomi
+Nintendo Famicom Disk System
 Nintendo GameBoy
 Nintendo GameBoy Color
 Nintendo DS
@@ -61,6 +62,8 @@ Nintendo Nes
 Nintendo SNes
 Nintendo 64
 Neo Geo
+Neo Geo Pocket
+Neo Geo Pocket Color
 Pc Engine
 Ports
 PSP
@@ -80,6 +83,10 @@ WondwerswanColor
 Vectrex
 X68000
 Sinclair Zx Spectrum
+===============================================
+# 28/04/2022 UPDATE
+## added 3 new Systems
+## Neo Geo Pocket, Neo Geo Pocket Color, Nintendo Famicom Disk System
 ===============================================
 #
 # 4/04/2022 UPDATE
