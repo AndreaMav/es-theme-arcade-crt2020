@@ -97,7 +97,7 @@ Internal Theme - Improvment
 ===============================================
 #
 # 3/04/2022 UPDATE
-## added two new System
+## added 2 new Systems
 ## Wondwerswan and WondwerswanColor
 ===============================================
 #
