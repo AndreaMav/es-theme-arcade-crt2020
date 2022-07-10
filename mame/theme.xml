@@ -1,9 +1,9 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.5
+version:		2.6
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			09/09/2020
+Date:			10/07/2022
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -13,7 +13,7 @@ Date:			09/09/2020
 		<image name="background" extra="true">
 				<size>1 0.5</size>
 				<tile>true</tile>
-				<path>./_inc/system_and.png</path>
+				<path>./_inc/arcade_bg2.jpg</path>
 				<tile>false</tile>
 			</image>
 		<image name="logo">
@@ -22,10 +22,16 @@ Date:			09/09/2020
 		<image name="bottom3" extra="true">
             <path>./../art/zanac_logo.png</path>
             <origin>0.2 0.5</origin>
-            <pos>0.2 0.87</pos>
-            <size>0.33 0.10</size>
+            <pos>0.18 0.91</pos>
+            <size>0.30 0.08</size>
         </image>
-		<image name="logo_helper" extra="true">
+		<image name="bottom2" extra="true">
+            <path>./../art/myzar.png</path>
+            <origin>0.2 0.5</origin>
+            <pos>0.12 0.615</pos>
+            <size>0.25 0.1</size>
+        </image>
+        <image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
 			<origin>0.2 0.5</origin>
 			<pos>0.65 0.58</pos>
@@ -37,8 +43,6 @@ Date:			09/09/2020
 	        <pos>0 0.6537</pos>
 	        <size>1 0.2325</size>
 	      </carousel>
-
-				 
 		<text name="systemInfo">
 			<color>d0d0d0</color>
 			<pos>0.15 0.5</pos>
@@ -49,8 +53,9 @@ Date:			09/09/2020
 	      </text>
 
 	</view>
-
+	
 	<view name="basic, detailed, video">
+
 		<text name="
 			md_lbl_description,
 			md_description,
@@ -78,12 +83,28 @@ Date:			09/09/2020
 			<fontPath>./../art/piccolo.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 		</text>
-			<image name="logo">
+
+			<image name="logo_helper"  extra="true">
 				<origin>0 0.5</origin>
 				<pos>0.30 0.0775</pos>
-				<size>0.40 0.14</size>
-				<path>./_inc/system.svg</path>
+				<size>0.38 0.14</size>
+				<path>./../art/arcand2.png</path>
 			</image>
+			<image name="background">
+				<origin>0 0.5</origin>
+				<pos>0.04 0.0775</pos>
+				<size>0.25 0.14</size>
+				<path>./_inc/sg.jpg</path>
+				<tile>false</tile>
+			</image>
+			<image name="logo">
+				<origin>0 0.5</origin>
+				<pos>0.69 0.0775</pos>
+				<size>0.25 0.14</size>
+				<path>./_inc/vt.png</path>
+				<tile>false</tile>
+			</image>
+			
 			<textlist name="gamelist">
 				<selectorColor>001B9D</selectorColor>
 				<selectedColor>ffffff</selectedColor>
@@ -91,40 +112,59 @@ Date:			09/09/2020
 				<secondaryColor>7a6161</secondaryColor>
 				<forceUppercase>1</forceUppercase>
 				<pos>0.030 0.16</pos>
-				<size>0.400 0.8</size>
+				<size>0.400 0.79</size>
 				<alignment>left</alignment>
 				<horizontalMargin>0.00</horizontalMargin>
-				<lineSpacing>1.35</lineSpacing>
+				<lineSpacing>1.2</lineSpacing>
 				<fontSize>0.045</fontSize>
 				<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
 			</textlist>
-
-			<image name="md_marquee">
-				<pos>0.48 0.18</pos>
+			<image name="logoM" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+				<pos>0.47 0.15</pos>
+				<size>0.45 0.13</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
+			<image name="logoV" extra="true">
+	            <tile>false</tile>
+	            <pos>0.47 0.29</pos>			
 				<origin>0 0</origin>
-				<size>0.45 0.10</size>
-			</image>
+				<size>0.45 0.52</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
+			<image name="logoD" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.47 0.815</pos>
+	         	<size>0.45 0.14</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
+	         <image name="logoL" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+	            <pos>0.01 0.14</pos>
+	         	<size>0.45 0.83</size>           
+	            <path>./../art/backlin.png</path>
+	         </image>
 
-			<image name="md_image">
-				<pos>0.5 0.30</pos>			
-				<origin>0 0</origin>
-				<size>0.4 0.5</size>
-			</image>
 			<datetime name="md_releasedate">
 				<fontPath>./../art/piccolo.ttf</fontPath>
 				<color>ffffff</color>
-				<fontSize>0.035</fontSize>
 				<format>(c)%Y</format>
 				<pos>0.5 0.825	</pos>
 				<size>0.10 0.03</size>
+				<fontSize>0.035</fontSize>
+				<forceUppercase>1</forceUppercase>
 			</datetime>
 			<text name="md_lbl_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
-				<text>Developer:</text>
 				<fontSize>0.035</fontSize>
+				<text>Developer:</text>
 				<color>ffffff</color>
 				<pos>0.600 0.825</pos>
 				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
 			</text>	
 			<text name="md_publisher">
 				<fontPath>./../art/piccolo.ttf</fontPath>
@@ -132,6 +172,7 @@ Date:			09/09/2020
 				<color>00ffd9</color>
 				<pos>0.740 0.825</pos>
 				<size>0.400 0.03</size>
+				<forceUppercase>1</forceUppercase>
 			</text>
 					
 			<text name="md_lbl_players">
@@ -139,6 +180,7 @@ Date:			09/09/2020
 				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.850</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>
 
 			<text name="md_players">
@@ -146,6 +188,7 @@ Date:			09/09/2020
 				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.610 0.845</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>
 			
 			<text name="md_lbl_lastplayed">
@@ -153,6 +196,7 @@ Date:			09/09/2020
 				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.875</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>
 			
 			<datetime name="md_lastplayed">
@@ -161,6 +205,7 @@ Date:			09/09/2020
 				<color>00ffd9</color>
 				<pos>0.680 0.872</pos>
 				<size>0.192 0.049</size>
+				<forceUppercase>1</forceUppercase>
 			</datetime>
 			
 			<text name="md_lbl_playcount">
@@ -168,6 +213,7 @@ Date:			09/09/2020
 				<fontSize>0.035</fontSize>
 				<color>ffffff</color>
 				<pos>0.5 0.900</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>	
 
 			<text name="md_playcount">
@@ -175,6 +221,7 @@ Date:			09/09/2020
 				<fontSize>0.035</fontSize>
 				<color>00ffd9</color>
 				<pos>0.680 0.895</pos>
+				<forceUppercase>1</forceUppercase>
 			</text>	
 
 			<text name="md_lbl_rating">
@@ -188,11 +235,22 @@ Date:			09/09/2020
 				<unfilledPath>./../art/invisible.png</unfilledPath>
 			</rating>
 
-
-
 	</view>
 
 
+<view name="basic, detailed">
+			<image name="md_marquee">
+				<origin>0 0</origin>
+				<pos>0.49 0.158</pos>
+				<size>0.405 0.11</size>
+			</image>
+
+			<image name="md_image">
+				<origin>0 0</origin>
+				<pos>0.49 0.30</pos>
+				<size>0.405 0.48</size>
+			</image>
+</view>
 
 
 
@@ -201,23 +259,20 @@ Date:			09/09/2020
 		<view name="video">
 
 			<video name="md_video">
-				<pos>0.5 0.30</pos>			
 				<origin>0 0</origin>
-				<size>0.4 0.5</size>
-				<delay>0.2</delay>
-				<default></default>
+				<pos>0.49 0.313</pos>
+				<size>0.405 0.48</size>
+				<delay>1</delay>
+				<default>static.mp4</default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
 			</video>
 
 			<image name="md_marquee">
-				<pos>0.48 0.18</pos>
 				<origin>0 0</origin>
-				<size>0.45 0.10</size>
+				<pos>0.49 0.158</pos>
+				<size>0.405 0.11</size>
 			</image>
-
-			
-
 		</view>
 
 	</feature>
