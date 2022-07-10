@@ -1,9 +1,9 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.5
+version:		2.6
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			09/09/2020
+Date:			10/07/2022
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -22,14 +22,14 @@ Date:			09/09/2020
 		<image name="bottom3" extra="true">
             <path>./../art/zanac_logo.png</path>
             <origin>0.2 0.5</origin>
-            <pos>0.2 0.93</pos>
-            <size>0.33 0.10</size>
+            <pos>0.18 0.91</pos>
+            <size>0.30 0.08</size>
         </image>
 		<image name="bottom2" extra="true">
             <path>./../art/myzar.png</path>
             <origin>0.2 0.5</origin>
-            <pos>0.6 0.93</pos>
-            <size>0.33 0.1</size>
+            <pos>0.12 0.615</pos>
+            <size>0.25 0.1</size>
         </image>
         <image name="logo_helper" extra="true">
 			<path>./../art/andmavlog.png</path>
