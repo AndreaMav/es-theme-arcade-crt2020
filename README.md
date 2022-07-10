@@ -84,6 +84,9 @@ Vectrex
 X68000
 Sinclair Zx Spectrum
 ===============================================
+# 10/07/2022 UPDATE
+## UPDATE Internal Theme - Mame - FBA - Arcade
+===============================================
 # 28/04/2022 UPDATE
 ## added 3 new Systems
 ## Neo Geo Pocket, Neo Geo Pocket Color, Nintendo Famicom Disk System
