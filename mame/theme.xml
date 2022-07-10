@@ -83,27 +83,13 @@ Date:			10/07/2022
 			<fontPath>./../art/piccolo.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 		</text>
-
-			<image name="logo_helper"  extra="true">
-				<origin>0 0.5</origin>
-				<pos>0.30 0.0775</pos>
-				<size>0.38 0.14</size>
-				<path>./../art/arcand2.png</path>
-			</image>
-			<image name="background">
-				<origin>0 0.5</origin>
-				<pos>0.04 0.0775</pos>
-				<size>0.25 0.14</size>
-				<path>./_inc/sg.jpg</path>
-				<tile>false</tile>
-			</image>
 			<image name="logo">
 				<origin>0 0.5</origin>
-				<pos>0.69 0.0775</pos>
-				<size>0.25 0.14</size>
-				<path>./_inc/vt.png</path>
-				<tile>false</tile>
+				<pos>0.30 0.0775</pos>
+				<size>0.40 0.14</size>
+				<path>./_inc/system.svg</path>
 			</image>
+			
 			
 			<textlist name="gamelist">
 				<selectorColor>001B9D</selectorColor>
