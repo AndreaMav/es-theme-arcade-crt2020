@@ -1,9 +1,9 @@
 <!--
 theme name:		es-arcade-crt2020
-version:		2.5
+version:		2.51
 author:			AndreaMav
 web:			https://github.com/AndreaMav/es-theme-arcade-crt2020
-Date:			09/09/2020
+Date:			06/03/2023
 -->
 <theme>
 	<formatVersion>4</formatVersion>
@@ -57,9 +57,9 @@ Date:			09/09/2020
 			<image name="background" extra="true">
 				<size>0.99 0.66</size>
 				<origin>0 0</origin>
-				<tile>true</tile>
 				<path>./_inc/gb_c.jpg</path>
 				<tile>false</tile>
+				<zIndex>41</zIndex>
 			</image>
 			
 			
@@ -181,9 +181,6 @@ Date:			09/09/2020
                 <size>0.001 0.001</size>
                 <forceUppercase>1</forceUppercase>
             </text>
-
-
-
 	</view>
 
 
@@ -202,6 +199,7 @@ Date:			09/09/2020
 				<default></default>
 				<showSnapshotNoVideo>true</showSnapshotNoVideo>
 				<showSnapshotDelay>false</showSnapshotDelay>
+				<zIndex>42</zIndex>
 			</video>
 
 			<image name="md_marquee">
@@ -209,13 +207,7 @@ Date:			09/09/2020
 				<origin>0 0</origin>
 				<size>0 0</size>
 			</image>
-
-			
-
-			
-
 		</view>
-
 	</feature>
 
 </theme>
