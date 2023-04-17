@@ -84,6 +84,9 @@ Vectrex
 X68000
 Sinclair Zx Spectrum
 ===============================================
+# 17/04/2023 UPDATE
+## ADD CrtEvo System Setting Page
+===============================================
 # 10/07/2022 UPDATE
 ## UPDATE Internal Theme - Mame - FBA - Arcade
 ===============================================
